@@ -1,0 +1,440 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr 29 10:10:21 2020
+# Process ID: 13372
+# Current directory: D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1
+# Command line: vivado.exe -log mult_s36_u43_lat7.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_s36_u43_lat7.tcl
+# Log file: D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1/mult_s36_u43_lat7.vds
+# Journal file: D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_s36_u43_lat7.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/mw/rtt/vvd/s/s_1/repo/sm_ctrl'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MW/RTT/VVD/ZED/P0/repo'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/MW/RTT/VVD/ZED/P0/repo' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Eda_Tools/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:SM_ctrl:1.0'. The one found in IP location 'd:/mw/rtt/vvd/s/s_1/repo/sm_ctrl' will take precedence over the same IP in location d:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl
+Command: synth_design -top mult_s36_u43_lat7 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2184 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 834.582 ; gain = 178.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mult_s36_u43_lat7' [d:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/synth/mult_s36_u43_lat7.vhd:69]
+WARNING: [Synth 8-5640] Port 'zero_detect' is missing in component declaration [d:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/synth/mult_s36_u43_lat7.vhd:72]
+WARNING: [Synth 8-5640] Port 'pcasc' is missing in component declaration [d:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/synth/mult_s36_u43_lat7.vhd:72]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_MODEL_TYPE bound to: 0 - type: integer 
+	Parameter C_OPTIMIZE_GOAL bound to: 0 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_HAS_CE bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 1 - type: integer 
+	Parameter C_LATENCY bound to: 8 - type: integer 
+	Parameter C_A_WIDTH bound to: 36 - type: integer 
+	Parameter C_A_TYPE bound to: 0 - type: integer 
+	Parameter C_B_WIDTH bound to: 43 - type: integer 
+	Parameter C_B_TYPE bound to: 1 - type: integer 
+	Parameter C_OUT_HIGH bound to: 77 - type: integer 
+	Parameter C_OUT_LOW bound to: 41 - type: integer 
+	Parameter C_MULT_TYPE bound to: 1 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_CCM_IMP bound to: 0 - type: integer 
+	Parameter C_B_VALUE bound to: 10000001 - type: string 
+	Parameter C_HAS_ZERO_DETECT bound to: 0 - type: integer 
+	Parameter C_ROUND_OUTPUT bound to: 0 - type: integer 
+	Parameter C_ROUND_PT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_15' declared at 'd:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/hdl/mult_gen_v12_0_vh_rfs.vhd:21013' bound to instance 'U0' of component 'mult_gen_v12_0_15' [d:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/synth/mult_s36_u43_lat7.vhd:123]
+INFO: [Synth 8-256] done synthesizing module 'mult_s36_u43_lat7' (8#1) [d:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/synth/mult_s36_u43_lat7.vhd:69]
+WARNING: [Synth 8-3331] design delay_line__parameterized14 has unconnected port CLK
+WARNING: [Synth 8-3331] design delay_line__parameterized14 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized14 has unconnected port SCLR
+WARNING: [Synth 8-3331] design delay_line__parameterized13 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized11 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized12 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized10 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized9 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized8 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized6 has unconnected port CLK
+WARNING: [Synth 8-3331] design delay_line__parameterized6 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized6 has unconnected port SCLR
+WARNING: [Synth 8-3331] design delay_line__parameterized7 has unconnected port CE
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[24]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[23]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[22]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[21]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[20]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[19]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[18]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[17]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[16]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[15]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[14]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[13]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[12]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[11]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[10]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[9]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[8]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[7]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[6]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[5]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[4]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[3]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[2]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[1]
+WARNING: [Synth 8-3331] design dsp has unconnected port D_PORT[0]
+WARNING: [Synth 8-3331] design dsp has unconnected port CARRY_IN
+WARNING: [Synth 8-3331] design delay_line__parameterized5 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized4 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized2 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized1 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized0 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized15 has unconnected port CLK
+WARNING: [Synth 8-3331] design delay_line__parameterized15 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized15 has unconnected port SCLR
+WARNING: [Synth 8-3331] design mult_gen_v12_0_15_viv has unconnected port CE
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 959.863 ; gain = 303.555
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 959.863 ; gain = 303.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 959.863 ; gain = 303.555
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 116 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/mult_s36_u43_lat7_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/mult_s36_u43_lat7_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 964.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 37 instances were transformed.
+  MULT_AND => LUT2: 37 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 975.438 ; gain = 11.055
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 975.438 ; gain = 319.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 975.438 ; gain = 319.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 975.438 ; gain = 319.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 975.438 ; gain = 319.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design mult_gen_v12_0_15_viv has unconnected port CE
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[0]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_top/d1.dout_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[1]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[2]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[3]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[4]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[5]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[6]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[7]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[8]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[9]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[10]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[11]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[12]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[13]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[14]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[15]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[16]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[17]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[18]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[19]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[20]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[21]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[22]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[23]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[24]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[25]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[26]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[27]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[28]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[29]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[30]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[31]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[30]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[32]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[33]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[32]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[34]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_b_side/d1.dout_i_reg[35]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_b/d1.dout_i_reg[34]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[0]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[1]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[2]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[3]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[4]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[5]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[6]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[7]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[8]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[9]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[10]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[11]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[12]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[13]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[14]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[15]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[16]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[17]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[18]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[19]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[20]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[21]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[22]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[23]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[24]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[25]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[26]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[27]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[28]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[29]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[30]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[30]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[31]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[32]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[32]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[33]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[34]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[34]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[35]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[35]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[36]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[36]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[37]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[37]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[38]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[38]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[39]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[39]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.fabric_predelay_a_top/d1.dout_i_reg[40]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.block_predelay_a/d1.dout_i_reg[40]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.iLUT_top/Nx1_mult.and_loop[41].pipeline_mult.pi_reg[41]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iAdelx[1].iAdely[0].use_delay_line.Adelay/d1.dout_i_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iBdelx[1].iBdely[0].need_delay_line.Bdelay/dN.std_srl.shift_reg_reg[0][17]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iAdelx[1].iAdely[0].use_delay_line.Adelay/d1.dout_i_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iBdelx[1].iBdely[0].need_delay_line.Bdelay/dN.std_srl.shift_reg_reg[1][17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_mult/\gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iAdelx[1].iAdely[0].use_delay_line.Adelay/d1.dout_i_reg[24] )
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iBdelx[1].iBdely[0].need_delay_line.Bdelay/dN.std_srl.shift_reg_reg[1][17]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iAdelx[1].iAdely[0].use_delay_line.Adelay/d1.dout_i_reg[24]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_mult/\gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iAdelx[1].iAdely[0].use_delay_line.Adelay/d1.dout_i_reg[24] )
+INFO: [Synth 8-3886] merging instance 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.appDSP48[1].bppDSP48[0].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]' (FDR) to 'U0/i_mult/gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iAdelx[1].iAdely[0].use_delay_line.Adelay/d1.dout_i_reg[24]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_mult/\gDSP.gHYBRID.iHYBRID/two_fabric_mults.dsp_based.iDSP/use_prim.iAdelx[1].iAdely[0].use_delay_line.Adelay/d1.dout_i_reg[24] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 975.438 ; gain = 319.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1051.078 ; gain = 394.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1052.645 ; gain = 396.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1063.320 ; gain = 407.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1079.129 ; gain = 422.820
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1079.129 ; gain = 422.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1079.129 ; gain = 422.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1079.129 ; gain = 422.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1079.129 ; gain = 422.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1079.129 ; gain = 422.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    11|
+|2     |DSP48E1   |     1|
+|3     |DSP48E1_1 |     1|
+|4     |DSP48E1_2 |     1|
+|5     |DSP48E1_3 |     1|
+|6     |LUT1      |     3|
+|7     |LUT2      |    84|
+|8     |LUT3      |     2|
+|9     |LUT4      |    35|
+|10    |MULT_AND  |    37|
+|11    |MUXCY     |    37|
+|12    |XORCY     |    38|
+|13    |FDRE      |   332|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1079.129 ; gain = 422.820
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1079.129 ; gain = 407.246
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1079.129 ; gain = 422.820
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 127 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1098.188 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 47 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 10 instances
+  MULT_AND => LUT2: 37 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+106 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1098.188 ; gain = 709.977
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1098.188 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1/mult_s36_u43_lat7.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mult_s36_u43_lat7, cache-ID = 28ed9c12c54c0654
+INFO: [Coretcl 2-1174] Renamed 14 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1098.188 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/mult_s36_u43_lat7_synth_1/mult_s36_u43_lat7.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mult_s36_u43_lat7_utilization_synth.rpt -pb mult_s36_u43_lat7_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 29 10:11:09 2020...

@@ -1,0 +1,186 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : ECPELCS001-01.brd                             )
+(    Software Version : 17.2S070                                      )
+(    Date/Time        : Tue Nov 17 12:03:14 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		3.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	YES
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-365): This design contains 15 slot holes that cannot be drilled.
+ WARNING(SPMHMF-366): They can be processed by NC routing instead.
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.2000  P        T01            0.000000     0.000000
+         0.2030  P        T02            0.000000     0.000000
+         0.2032  P        T03            0.000000     0.000000
+         0.3048  P        T04            0.000000     0.000000
+         0.4826  P        T05            0.000000     0.000000
+         0.5461  P        T06            0.000000     0.000000
+         0.6101  P        T07            0.000000     0.000000
+         0.7109  P        T08            0.000000     0.000000
+         0.9911  P        T09            0.000000     0.000000
+         1.1941  P        T10            0.000000     0.000000
+         1.4986  P        T11            0.000000     0.000000
+         1.5999  P        T12            0.000000     0.000000
+         1.8029  P        T13            0.000000     0.000000
+         0.7109  N        T14            0.000000     0.000000
+         0.8131  N        T15            0.000000     0.000000
+         0.9911  N        T16            0.000000     0.000000
+         1.0160  N        T17            0.000000     0.000000
+         1.1941  N        T18            0.000000     0.000000
+         1.5999  N        T19            0.000000     0.000000
+         1.7018  N        T20            0.000000     0.000000
+         2.9969  N        T21            0.000000     0.000000
+         3.0988  N        T22            0.050800     0.050800
+         3.1999  N        T23            0.000000     0.000000
+         3.5049  N        T24            0.000000     0.000000
+         8.0010  N        T25            0.000000     0.000000
+
+
+ Drill files being output to directory 'Z:/clienti/R/Rototype/history/progetto_REVISIONE_RLB_RPB/RLB_revisione/@_CHIUSURA' ...
+
+
+
+     'ECPELCS001-01-1-12.drl' created for holes connecting TOP and BOTTOM
+     --------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.2000    0.0000/  0.0000      PLATED        670
+     T02    2.   0.2030    0.0000/  0.0000      PLATED       2991
+     T03    3.   0.2032    0.0000/  0.0000      PLATED        648
+     T04    4.   0.3048    0.0000/  0.0000      PLATED       1435
+     T05    5.   0.4826    0.0000/  0.0000      PLATED         15
+     T06    6.   0.5461    0.0000/  0.0000      PLATED         19
+     T07    7.   0.6101    0.0000/  0.0000      PLATED         10
+     T08    8.   0.7109    0.0000/  0.0000      PLATED         36
+     T09    9.   0.9911    0.0000/  0.0000      PLATED         38
+     T10   10.   1.1941    0.0000/  0.0000      PLATED          3
+     T11   11.   1.4986    0.0000/  0.0000      PLATED         16
+     T12   12.   1.5999    0.0000/  0.0000      PLATED         44
+     T13   13.   1.8029    0.0000/  0.0000      PLATED          2
+     T14   14.   0.7109    0.0000/  0.0000  NON_PLATED          1
+     T15   15.   0.8131    0.0000/  0.0000  NON_PLATED          6
+     T16   16.   0.9911    0.0000/  0.0000  NON_PLATED          6
+     T17   17.   1.0160    0.0000/  0.0000  NON_PLATED         10
+     T18   18.   1.1941    0.0000/  0.0000  NON_PLATED          8
+     T19   19.   1.5999    0.0000/  0.0000  NON_PLATED          2
+     T20   20.   1.7018    0.0000/  0.0000  NON_PLATED          2
+     T21   21.   2.9969    0.0000/  0.0000  NON_PLATED          1
+     T22   22.   3.0988    0.0508/  0.0508  NON_PLATED          2
+     T23   23.   3.1999    0.0000/  0.0000  NON_PLATED          4
+     T24   24.   3.5049    0.0000/  0.0000  NON_PLATED         10
+     T25   25.   8.0010    0.0000/  0.0000  NON_PLATED          1
+
+     ---- Total holes:                                       5980
+
+     ---- Total head travel:              587.31 feet (179.01 meters)
+
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC ROUTE Log                                                     )
+(                                                                     )
+(    Drawing          : ECPELCS001-01.brd                             )
+(    Software Version : 17.2S070                                      )
+(    Date/Time        : Tue Nov 17 12:03:02 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		3.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	YES
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+
+ WARNING(SPMHMF-326): Cannot find NC Route bit tool file 'ncroutebits.txt'
+ WARNING(SPMHMF-327): ... will auto-generate bit tool file 'ncroutebits_auto.txt'.
+
+ Auto-generating tool file 'ncroutebits_auto.txt' ...
+
+     0.4826  T01       
+     0.5080  T02       
+     0.6599  T03       
+     0.8890  T04       
+
+-------------------------------------------------------------
+
+ Pre_processing route path data ...
+
+ WARNING(SPMHMF-296): No route path data was found for processing.
+
+
+-------------------------------------------------------------
+
+ Processing slot hole data ... TOP to BOTTOM 
+
+ OVAL      slots routed: 15
+ RECTANGLE slots routed: 0
+
+-------------------------------------------------------------
+
+ NC Route file 'ECPELCS001-01_1-12.rou' created ...
+
+-------------------------------------------------------------
+
+ Program completed.
+

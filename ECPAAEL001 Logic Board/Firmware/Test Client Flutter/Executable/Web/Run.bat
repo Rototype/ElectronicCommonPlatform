@@ -1,0 +1,1 @@
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-file-access --allow-file-access-from-files "file://%~dp0index.html"

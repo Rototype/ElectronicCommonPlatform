@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7s100fgga676-1" LaunchTime="1595989241">
+  <File Type="PA-TCL" Name="S7_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="S7_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="S7_wrapper.vds"/>
+  <File Type="RDS-DCP" Name="S7_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/S7/S7.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/S7/hdl/S7_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="S7_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/S7_IOs.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/S7_Timing.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design">
+      <Option Id="NoCombineLuts">1</Option>
+      <Option Id="KeepEquivalentRegisters">1</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="S7_RT_timebase_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_xbar_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_util_ds_buf_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_axi_cdma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_util_ds_buf_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_util_idelay_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_axi_bram_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_13_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_24_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_35_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_7_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_axi_intc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_DCM_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_DCM_ctrl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_9_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_11_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_22_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_33_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_axi_chip2chip_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_DCM_ctrl_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_alg_server_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_alg_server_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_DCM_ctrl_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_DCM_ctrl_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_DCM_regs_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_18_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_29_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_39_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_17_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_28_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_19_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_21_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_32_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_12_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_23_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_34_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_14_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_25_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_36_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_26_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_15_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_27_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_16_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_31_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_20_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_30_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_37_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_38_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_40_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_41_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_42_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_43_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_44_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_45_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_46_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_47_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_48_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_ctrl_49_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_PHS_regs_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_7_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_9_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_11_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_12_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_13_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_14_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_15_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_16_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_17_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_18_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_ctrl_19_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SM_regs_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_7_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_ctrl_9_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_SOL_regs_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="S7_areset_sync_0_0"/>
+</GenRun>

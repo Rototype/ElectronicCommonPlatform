@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\MW\RTT\VVD\Z\Z1\RTT_RLB_BASE\RTT_PRO.sdk\zynq_fsbl\Debug\zynq_fsbl.elf
+	D:\MW\RTT\VVD\Z\Z1\RTT_RLB_BASE\RTT_PRO.sdk\system_wrapper_hw_platform_0\system_wrapper.bit
+	D:\MW\RTT\VVD\Z\Z1\RTT_RLB_BASE\RTT_PRO.sdk\hello\Debug\hello.elf
+}

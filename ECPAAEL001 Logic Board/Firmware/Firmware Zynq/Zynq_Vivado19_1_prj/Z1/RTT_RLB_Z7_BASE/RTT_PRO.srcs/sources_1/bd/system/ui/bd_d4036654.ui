@@ -1,0 +1,125 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -10 -y 1870 -defaultsOSRD
+preplace port SM0 -pg 1 -lvl 3 -x 820 -y 90 -defaultsOSRD
+preplace port SM1 -pg 1 -lvl 3 -x 820 -y 270 -defaultsOSRD
+preplace port SM2 -pg 1 -lvl 3 -x 820 -y 450 -defaultsOSRD
+preplace port SM3 -pg 1 -lvl 3 -x 820 -y 630 -defaultsOSRD
+preplace port SM4 -pg 1 -lvl 3 -x 820 -y 810 -defaultsOSRD
+preplace port SM5 -pg 1 -lvl 3 -x 820 -y 990 -defaultsOSRD
+preplace port SM6 -pg 1 -lvl 3 -x 820 -y 1170 -defaultsOSRD
+preplace port SM7 -pg 1 -lvl 3 -x 820 -y 1350 -defaultsOSRD
+preplace port SM8 -pg 1 -lvl 3 -x 820 -y 1530 -defaultsOSRD
+preplace port SM9 -pg 1 -lvl 3 -x 820 -y 1710 -defaultsOSRD
+preplace port SM10 -pg 1 -lvl 3 -x 820 -y 1890 -defaultsOSRD
+preplace port SM11 -pg 1 -lvl 3 -x 820 -y 2070 -defaultsOSRD
+preplace port SM12 -pg 1 -lvl 3 -x 820 -y 2460 -defaultsOSRD
+preplace port SM13 -pg 1 -lvl 3 -x 820 -y 2280 -defaultsOSRD
+preplace port SM14 -pg 1 -lvl 3 -x 820 -y 2640 -defaultsOSRD
+preplace port SM15 -pg 1 -lvl 3 -x 820 -y 2820 -defaultsOSRD
+preplace port SM16 -pg 1 -lvl 3 -x 820 -y 3000 -defaultsOSRD
+preplace port SM17 -pg 1 -lvl 3 -x 820 -y 3180 -defaultsOSRD
+preplace port SM18 -pg 1 -lvl 3 -x 820 -y 3360 -defaultsOSRD
+preplace port SM19 -pg 1 -lvl 3 -x 820 -y 3540 -defaultsOSRD
+preplace port SM_irq -pg 1 -lvl 3 -x 820 -y 2190 -defaultsOSRD
+preplace port clk200 -pg 1 -lvl 0 -x -10 -y 1930 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -10 -y 1910 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -10 -y 1890 -defaultsOSRD
+preplace portBus SM_irqs -pg 1 -lvl 3 -x 820 -y 2170 -defaultsOSRD
+preplace inst SM_alg_server_0 -pg 1 -lvl 1 -x 170 -y 950 -defaultsOSRD
+preplace inst SM_alg_server_1 -pg 1 -lvl 1 -x 170 -y 2620 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 2 -x 680 -y 3700 -defaultsOSRD
+preplace inst SM_regs_0 -pg 1 -lvl 1 -x 170 -y 1890 -defaultsOSRD
+preplace inst SM_ctrl_0 -pg 1 -lvl 2 -x 680 -y 100 -defaultsOSRD
+preplace inst SM_ctrl_10 -pg 1 -lvl 2 -x 680 -y 1900 -defaultsOSRD
+preplace inst SM_ctrl_11 -pg 1 -lvl 2 -x 680 -y 2080 -defaultsOSRD
+preplace inst SM_ctrl_12 -pg 1 -lvl 2 -x 680 -y 2470 -defaultsOSRD
+preplace inst SM_ctrl_13 -pg 1 -lvl 2 -x 680 -y 2290 -defaultsOSRD
+preplace inst SM_ctrl_14 -pg 1 -lvl 2 -x 680 -y 2650 -defaultsOSRD
+preplace inst SM_ctrl_15 -pg 1 -lvl 2 -x 680 -y 2830 -defaultsOSRD
+preplace inst SM_ctrl_16 -pg 1 -lvl 2 -x 680 -y 3010 -defaultsOSRD
+preplace inst SM_ctrl_17 -pg 1 -lvl 2 -x 680 -y 3190 -defaultsOSRD
+preplace inst SM_ctrl_18 -pg 1 -lvl 2 -x 680 -y 3370 -defaultsOSRD
+preplace inst SM_ctrl_19 -pg 1 -lvl 2 -x 680 -y 3550 -defaultsOSRD
+preplace inst SM_ctrl_1 -pg 1 -lvl 2 -x 680 -y 280 -defaultsOSRD
+preplace inst SM_ctrl_2 -pg 1 -lvl 2 -x 680 -y 460 -defaultsOSRD
+preplace inst SM_ctrl_3 -pg 1 -lvl 2 -x 680 -y 640 -defaultsOSRD
+preplace inst SM_ctrl_4 -pg 1 -lvl 2 -x 680 -y 820 -defaultsOSRD
+preplace inst SM_ctrl_5 -pg 1 -lvl 2 -x 680 -y 1000 -defaultsOSRD
+preplace inst SM_ctrl_6 -pg 1 -lvl 2 -x 680 -y 1180 -defaultsOSRD
+preplace inst SM_ctrl_7 -pg 1 -lvl 2 -x 680 -y 1360 -defaultsOSRD
+preplace inst SM_ctrl_8 -pg 1 -lvl 2 -x 680 -y 1540 -defaultsOSRD
+preplace inst SM_ctrl_9 -pg 1 -lvl 2 -x 680 -y 1720 -defaultsOSRD
+preplace netloc SM_regs_0_SM_irq 1 1 2 390J 2190 NJ
+preplace netloc SM_regs_0_SM_irqs 1 1 2 430J 2180 800J
+preplace netloc clk200 1 0 2 30 1100 440
+preplace netloc s00_axi_aclk_0_1 1 0 2 20 1110 460
+preplace netloc s00_axi_aresetn_0_1 1 0 2 10 800 410
+preplace netloc SM_regs_0_SM0 1 1 1 310 80n
+preplace netloc SM_ctrl_1_SM_IO 1 2 1 NJ 270
+preplace netloc SM_ctrl_5_SM_IO 1 2 1 NJ 990
+preplace netloc SM_ctrl_7_SM_IO 1 2 1 NJ 1350
+preplace netloc SM_ctrl_18_SM_IO 1 2 1 NJ 3360
+preplace netloc SM_ctrl_8_SM_IO 1 2 1 NJ 1530
+preplace netloc SM_regs_0_SM12 1 1 1 320 1920n
+preplace netloc SM_regs_0_SM6 1 1 1 470 1160n
+preplace netloc SM_ctrl_15_SM_IO 1 2 1 NJ 2820
+preplace netloc SM_ctrl_9_SM_IO 1 2 1 NJ 1710
+preplace netloc SM_regs_0_SM3 1 1 1 380 620n
+preplace netloc SM_regs_0_SM19 1 1 1 330 2060n
+preplace netloc SM_regs_0_SM15 1 1 1 400 1980n
+preplace netloc SM_regs_0_SM1 1 1 1 480 260n
+preplace netloc SM_regs_0_SM2 1 1 1 360 440n
+preplace netloc SM_regs_0_SM8 1 1 1 500 1520n
+preplace netloc SM_regs_0_SM14 1 1 1 470 1960n
+preplace netloc SM_regs_0_SM4 1 1 1 430 800n
+preplace netloc SM_regs_0_SM17 1 1 1 370 2020n
+preplace netloc SM_ctrl_19_SM_IO 1 2 1 NJ 3540
+preplace netloc SM_regs_0_SM18 1 1 1 350 2040n
+preplace netloc SM_regs_0_SM9 1 1 1 510 1700n
+preplace netloc SM_regs_0_SM11 1 1 1 360 1900n
+preplace netloc SM_regs_0_SM7 1 1 1 490 1340n
+preplace netloc SM_regs_0_SM5 1 1 1 450 980n
+preplace netloc SM_regs_0_SM10 1 1 1 N 1880
+preplace netloc SM_regs_0_SM13 1 1 1 310 1940n
+preplace netloc SM_ctrl_0_SM_IO 1 2 1 NJ 90
+preplace netloc SM_regs_0_SM16 1 1 1 380 2000n
+preplace netloc Conn1 1 0 1 NJ 1870
+preplace netloc SM_alg_server_0_smc_3 1 1 1 350 600n
+preplace netloc SM_alg_server_0_smc_5 1 1 1 N 960
+preplace netloc SM_ctrl_4_SM_IO 1 2 1 NJ 810
+preplace netloc SM_ctrl_11_SM_IO 1 2 1 NJ 2070
+preplace netloc SM_alg_server_1_smc_9 1 1 1 300 2710n
+preplace netloc SM_alg_server_0_smc_2 1 1 1 330 420n
+preplace netloc SM_alg_server_0_smc_7 1 1 1 400 1000n
+preplace netloc SM_alg_server_1_smc_5 1 1 1 360 2630n
+preplace netloc SM_ctrl_16_SM_IO 1 2 1 NJ 3000
+preplace netloc SM_alg_server_1_smc_0 1 1 1 520 1860n
+preplace netloc SM_alg_server_0_smc_0 1 1 1 300 60n
+preplace netloc SM_ctrl_6_SM_IO 1 2 1 NJ 1170
+preplace netloc SM_alg_server_0_smc_6 1 1 1 420 980n
+preplace netloc SM_alg_server_0_smc_8 1 1 1 370 1020n
+preplace netloc SM_alg_server_1_smc_2 1 1 1 550 2430n
+preplace netloc SM_alg_server_1_smc_3 1 1 1 540 2250n
+preplace netloc SM_ctrl_13_SM_IO 1 2 1 NJ 2280
+preplace netloc SM_alg_server_0_smc_1 1 1 1 320 240n
+preplace netloc SM_ctrl_3_SM_IO 1 2 1 NJ 630
+preplace netloc SM_alg_server_1_smc_6 1 1 1 340 2650n
+preplace netloc SM_alg_server_0_smc_4 1 1 1 370 780n
+preplace netloc SM_alg_server_1_smc_4 1 1 1 N 2610
+preplace netloc SM_alg_server_1_smc_8 1 1 1 310 2690n
+preplace netloc SM_alg_server_0_smc_9 1 1 1 350 1040n
+preplace netloc SM_ctrl_12_SM_IO 1 2 1 NJ 2460
+preplace netloc SM_alg_server_1_smc_1 1 1 1 530 2040n
+preplace netloc SM_alg_server_1_smc_7 1 1 1 320 2670n
+preplace netloc SM_ctrl_14_SM_IO 1 2 1 NJ 2640
+preplace netloc SM_ctrl_10_SM_IO 1 2 1 NJ 1890
+preplace netloc SM_ctrl_17_SM_IO 1 2 1 NJ 3180
+preplace netloc SM_ctrl_2_SM_IO 1 2 1 NJ 450
+levelinfo -pg 1 -10 170 680 820
+pagesize -pg 1 -db -bbox -sgen -170 0 960 3770
+"
+}
+0

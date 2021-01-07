@@ -1,0 +1,56 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -10 -y 600 -defaultsOSRD
+preplace port SOL0 -pg 1 -lvl 3 -x 600 -y 70 -defaultsOSRD
+preplace port SOL1 -pg 1 -lvl 3 -x 600 -y 210 -defaultsOSRD
+preplace port SOL2 -pg 1 -lvl 3 -x 600 -y 350 -defaultsOSRD
+preplace port SOL3 -pg 1 -lvl 3 -x 600 -y 490 -defaultsOSRD
+preplace port SOL4 -pg 1 -lvl 3 -x 600 -y 630 -defaultsOSRD
+preplace port SOL5 -pg 1 -lvl 3 -x 600 -y 770 -defaultsOSRD
+preplace port SOL6 -pg 1 -lvl 3 -x 600 -y 910 -defaultsOSRD
+preplace port SOL7 -pg 1 -lvl 3 -x 600 -y 1330 -defaultsOSRD
+preplace port SOL8 -pg 1 -lvl 3 -x 600 -y 1050 -defaultsOSRD
+preplace port SOL9 -pg 1 -lvl 3 -x 600 -y 1190 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -10 -y 620 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -10 -y 640 -defaultsOSRD
+preplace inst SOL_ctrl_0 -pg 1 -lvl 2 -x 460 -y 70 -defaultsOSRD
+preplace inst SOL_ctrl_1 -pg 1 -lvl 2 -x 460 -y 210 -defaultsOSRD
+preplace inst SOL_ctrl_2 -pg 1 -lvl 2 -x 460 -y 350 -defaultsOSRD
+preplace inst SOL_ctrl_3 -pg 1 -lvl 2 -x 460 -y 490 -defaultsOSRD
+preplace inst SOL_ctrl_4 -pg 1 -lvl 2 -x 460 -y 630 -defaultsOSRD
+preplace inst SOL_ctrl_5 -pg 1 -lvl 2 -x 460 -y 770 -defaultsOSRD
+preplace inst SOL_ctrl_6 -pg 1 -lvl 2 -x 460 -y 910 -defaultsOSRD
+preplace inst SOL_ctrl_7 -pg 1 -lvl 2 -x 460 -y 1330 -defaultsOSRD
+preplace inst SOL_ctrl_8 -pg 1 -lvl 2 -x 460 -y 1050 -defaultsOSRD
+preplace inst SOL_ctrl_9 -pg 1 -lvl 2 -x 460 -y 1190 -defaultsOSRD
+preplace inst SOL_regs_0 -pg 1 -lvl 1 -x 140 -y 620 -defaultsOSRD
+preplace netloc s00_axi_aclk_3_1 1 0 2 20 470 310
+preplace netloc s00_axi_aresetn_3_1 1 0 2 10 460 320
+preplace netloc Conn10 1 2 1 NJ 1050
+preplace netloc Conn5 1 2 1 NJ 490
+preplace netloc SOL_regs_0_SOL6 1 1 1 270 650n
+preplace netloc Conn9 1 2 1 NJ 1330
+preplace netloc SOL_regs_0_SOL7 1 1 1 280 670n
+preplace netloc SOL_regs_0_SOL5 1 1 1 290 630n
+preplace netloc SOL_regs_0_SOL1 1 1 1 280 190n
+preplace netloc Conn11 1 2 1 NJ 1190
+preplace netloc Conn1 1 0 1 NJ 600
+preplace netloc SOL_regs_0_SOL2 1 1 1 330 330n
+preplace netloc SOL_regs_0_SOL0 1 1 1 260 50n
+preplace netloc Conn3 1 2 1 NJ 210
+preplace netloc SOL_regs_0_SOL3 1 1 1 340 470n
+preplace netloc SOL_regs_0_SOL4 1 1 1 N 610
+preplace netloc Conn4 1 2 1 NJ 350
+preplace netloc Conn7 1 2 1 NJ 770
+preplace netloc Conn6 1 2 1 NJ 630
+preplace netloc Conn2 1 2 1 NJ 70
+preplace netloc Conn8 1 2 1 NJ 910
+preplace netloc SOL_regs_0_SOL9 1 1 1 260 710n
+preplace netloc SOL_regs_0_SOL8 1 1 1 300 690n
+levelinfo -pg 1 -10 140 460 600
+pagesize -pg 1 -db -bbox -sgen -170 -10 690 1530
+"
+}
+0

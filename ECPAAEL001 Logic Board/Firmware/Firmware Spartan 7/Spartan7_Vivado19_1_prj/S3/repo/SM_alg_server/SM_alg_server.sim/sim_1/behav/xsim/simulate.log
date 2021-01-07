@@ -1,0 +1,8 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 12500 ps  Iteration: 2  Process: /SM_alg_server_TB/DUT/nxt_ec/NEXT_EC_div/U0/i_synth/i_nonzero_fract/i_synth/opt_high_radix/i_nonzero_fract/i_high_radix/i_fixed/i_fix_to_flt/i_fpo/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_0/hdl/floating_point_v7_0_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 17500 ps  Iteration: 2  Process: /SM_alg_server_TB/DUT/nxt_ec/NEXT_EC_div/U0/i_synth/i_nonzero_fract/i_synth/opt_high_radix/i_nonzero_fract/i_high_radix/i_fixed/i_fix_to_flt/i_fpo/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_0/hdl/floating_point_v7_0_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 22500 ps  Iteration: 2  Process: /SM_alg_server_TB/DUT/nxt_ec/NEXT_EC_div/U0/i_synth/i_nonzero_fract/i_synth/opt_high_radix/i_nonzero_fract/i_high_radix/i_fixed/i_fix_to_flt/i_fpo/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_0/hdl/floating_point_v7_0_vh_rfs.vhd

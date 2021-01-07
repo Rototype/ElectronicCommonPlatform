@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER DCM_regs
+	OPTION supported_peripherals = (DCM_regs);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = DCM_regs;
+END DRIVER

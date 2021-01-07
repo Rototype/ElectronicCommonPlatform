@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8382401819767280861  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto a0a8d2e9e52c49d4b462ef944a8ff0f2 --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_15 -L floating_point_v7_0_16 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_15 -L xil_defaultlib -L c_reg_fd_v12_0_6 -L xbip_addsub_v3_0_6 -L c_addsub_v12_0_13 -L secureip -L xpm --snapshot SM_ctrl_TB_behav xil_defaultlib.SM_ctrl_TB" , 
+    buildDate : "Sep  4 2019" , 
+    buildTime : "09:57:52" , 
+    linkCmd : "C:\\Eda_Tools\\Xilinx\\Vivado\\2019.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/SM_ctrl_TB_behav/xsimk.exe\"   \"xsim.dir/SM_ctrl_TB_behav/obj/xsim_0.win64.obj\" \"xsim.dir/SM_ctrl_TB_behav/obj/xsim_1.win64.obj\" \"xsim.dir/SM_ctrl_TB_behav/obj/xsim_2.win64.obj\" \"xsim.dir/SM_ctrl_TB_behav/obj/xsim_3.win64.obj\" \"xsim.dir/SM_ctrl_TB_behav/obj/xsim_4.win64.obj\" \"xsim.dir/SM_ctrl_TB_behav/obj/xsim_5.win64.obj\" -L\"C:\\Eda_Tools\\Xilinx\\Vivado\\2019.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

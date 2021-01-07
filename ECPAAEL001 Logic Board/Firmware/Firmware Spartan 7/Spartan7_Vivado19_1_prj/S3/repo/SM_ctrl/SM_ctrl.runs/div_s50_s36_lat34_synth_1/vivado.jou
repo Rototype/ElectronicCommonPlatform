@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr 29 10:08:05 2020
+# Process ID: 6520
+# Current directory: D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/div_s50_s36_lat34_synth_1
+# Command line: vivado.exe -log div_s50_s36_lat34.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source div_s50_s36_lat34.tcl
+# Log file: D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/div_s50_s36_lat34_synth_1/div_s50_s36_lat34.vds
+# Journal file: D:/MW/RTT/VVD/ZED/P0/repo/SM_ctrl/SM_ctrl.runs/div_s50_s36_lat34_synth_1\vivado.jou
+#-----------------------------------------------------------
+source div_s50_s36_lat34.tcl -notrace

@@ -1,0 +1,2 @@
+mult_s36_u43_lat7.vhd,vhdl,xil_defaultlib,../../../../SM_alg_server.srcs/sources_1/ip/mult_s36_u43_lat7/sim/mult_s36_u43_lat7.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,103 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "\\rotohomeserver\schematic_symbols\rototype_components.olb"
+        (Type "Schematic Library"))
+      (File "..\ecpaael002-01-ufficiale\appoggio.olb"
+        (Type "Schematic Library")))
+    (File ".\ecpseel002-01.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\SviluppoHw\ECP 1000\ECPAAEL002-01\export.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Header
+       "PART_NUMBER\tDescription\tValue\tSource Package\tPCB Footprint\tManufacturer\tManufacturer PN\tDatasheet")
+    (BOM_Include_File
+       "\\FILESRV\DESIGN\ECP 1000 ELECTRONIC COMMON PLATFORM\PROGETTO\PROGETTO ELETTRONICO\SCHEDE\ECPAAEL002 POWER BOARD\ECPSEEL002 SCHEMA ELETTRICO\ECPSEEL002-01\ECPSEEL002-01.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (NoModify)
+    (EXPORT_Scope "0")
+    (EXPORT_Contents "0")
+    (EXPORT_File_Name "C:\SviluppoHw\ECP 1000\ECPAAEL002-01\properties.EXP")
+    (BOM_Property_Combine_7.0
+       "{PART_NUMBER}\t{Description}\t{Value}\t{Source Package}\t{PCB Footprint}\t{Manufacturer}\t{Manufacturer PN}\t{Datasheet}"))
+  (Folder "Outputs"
+    (File ".\export.bom"
+      (Type "Report"))
+    (File ".\ecpseel002-01.bom"
+      (Type "Report"))
+    (File ".\properties.exp"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\ecpseel002-01.dsn")
+      (Path "Design Resources" ".\ecpseel002-01.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources" ".\ecpseel002-01.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 311"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1811 156 506")
+        (Scroll "-224 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\SVILUPPOHW\ECP 1000\ECPAAEL002-01\ECPSEEL002-01.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "09 - SOLENOID"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1785 130 480")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\SVILUPPOHW\ECP 1000\ECPAAEL002-01\ECPSEEL002-01.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03 - DC MOTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1811 156 506")
+        (Scroll "-219 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\SVILUPPOHW\ECP 1000\ECPAAEL002-01\ECPSEEL002-01.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "05 - 1 DIGITAL_PHOTO - 0-5"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1655 0 350"))
+      (Path "c:\sviluppohw\ecp 1000\ecpaael002-01\export.bom")
+      (Scroll "0")))
+  (MPSSessionName "a.gori")
+  (PartMRUSelector
+    (CR16-223JM
+      (FullPartName "CR16-223JM.Normal")
+      (LibraryName "C:\ORCADWIN\CAPTURE\LIBRARY\AAC.OLB")
+      (DeviceIndex "0"))
+    (CR16-153JM
+      (FullPartName "CR16-153JM.Normal")
+      (LibraryName "C:\ORCADWIN\CAPTURE\LIBRARY\AAC.OLB")
+      (DeviceIndex "0"))
+    (CJ06-000M
+      (FullPartName "CJ06-000M.Normal")
+      (LibraryName "C:\ORCADWIN\CAPTURE\LIBRARY\AAC.OLB")
+      (DeviceIndex "0"))))

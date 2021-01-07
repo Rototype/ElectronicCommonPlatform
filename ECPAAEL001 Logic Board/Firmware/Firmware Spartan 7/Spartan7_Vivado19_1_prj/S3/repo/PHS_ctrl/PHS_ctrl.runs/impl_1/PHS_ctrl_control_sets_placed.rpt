@@ -1,0 +1,81 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Oct 10 16:49:53 2019
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file PHS_ctrl_control_sets_placed.rpt
+| Design       : PHS_ctrl
+| Device       : xc7s75
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    10 |
+| Unused register locations in slices containing registers |    41 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            1 |
+|      4 |            1 |
+|      6 |            1 |
+|      7 |            1 |
+|      8 |            1 |
+|     10 |            2 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              30 |           10 |
+| Yes          | No                    | No                     |               2 |            1 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              38 |           10 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|   Clock Signal  |           Enable Signal           |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++-----------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|  aclk_IBUF_BUFG |                                   |                                   |                1 |              1 |
+|  aclk_IBUF_BUFG |                                   | R.PHS_ctrl/ena_out_i_1_n_0        |                1 |              1 |
+|  aclk_IBUF_BUFG | R.PHS_ctrl/resetn                 |                                   |                1 |              2 |
+|  aclk_IBUF_BUFG | R.PHS_ctrl/ena                    | R.PHS_ctrl/pwm_maxcnt[4]_i_1_n_0  |                1 |              4 |
+|  aclk_IBUF_BUFG | R.PHS_ctrl/pwm_maxcnt[9]_i_1_n_0  | R.PHS_ctrl/reset                  |                1 |              6 |
+|  aclk_IBUF_BUFG |                                   | R.PHS_ctrl/deb_cnt[6]_i_1_n_0     |                2 |              7 |
+|  aclk_IBUF_BUFG | R.PHS_ctrl/ena_dly_cnt[7]_i_2_n_0 | R.PHS_ctrl/ena_dly_cnt[7]_i_1_n_0 |                2 |              8 |
+|  aclk_IBUF_BUFG | R.PHS_ctrl/vld                    | R.PHS_ctrl/reset                  |                2 |             10 |
+|  aclk_IBUF_BUFG | R.PHS_ctrl/pwm_cnt[9]_i_2_n_0     | R.PHS_ctrl/pwm_cnt[9]_i_1_n_0     |                4 |             10 |
+|  aclk_IBUF_BUFG |                                   | R.PHS_ctrl/reset                  |                7 |             22 |
++-----------------+-----------------------------------+-----------------------------------+------------------+----------------+
+
+

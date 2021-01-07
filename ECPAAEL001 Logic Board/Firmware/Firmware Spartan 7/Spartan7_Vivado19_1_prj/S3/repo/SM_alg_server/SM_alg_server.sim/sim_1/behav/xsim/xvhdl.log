@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/div_s50_s36_lat34/sim/div_s50_s36_lat34.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'div_s50_s36_lat34'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/add_s36_fclk_lat3/sim/add_s36_fclk_lat3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'add_s36_fclk_lat3'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_s36_u43_lat7/sim/mult_s36_u43_lat7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_s36_u43_lat7'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_s22_10995/sim/mult_s22_10995.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_s22_10995'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_u22/sim/mult_u22_u22.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_u22_u22'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/sim/mult_u22_fclk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_u22_fclk'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/new/SM_alg_server.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SM_alg_server'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sim_1/new/SM_alg_server_tester.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SM_alg_server_tester'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/new/next_ec_engine.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'next_ec_engine'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sim_1/new/SM_alg_server_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SM_alg_server_TB'

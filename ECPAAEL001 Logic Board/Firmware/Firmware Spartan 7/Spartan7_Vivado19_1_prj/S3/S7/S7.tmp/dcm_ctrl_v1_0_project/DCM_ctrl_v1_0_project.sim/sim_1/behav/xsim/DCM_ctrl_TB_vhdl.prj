@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl   \
+"../../../../../../../repo/DCM_ctrl/DCM_ctrl.srcs/sources_1/new/DCM_ctrl.vhd" \
+"../../../../../../../repo/DCM_ctrl/DCM_ctrl.srcs/sources_1/new/DCM_ctrl_fake.vhd" \
+"../../../../../../../repo/DCM_ctrl/DCM_ctrl.srcs/sources_1/new/DCM_ctrl_real.vhd" \
+"../../../../../../../repo/DCM_ctrl/DCM_ctrl.srcs/sim_1/new/DCM_ctrl_tester.vhd" \
+"../../../../../../../repo/DCM_ctrl/DCM_ctrl.srcs/sim_1/new/DCM_ctrl_TB.vhd" \
+
+# Do not sort compile order
+nosort

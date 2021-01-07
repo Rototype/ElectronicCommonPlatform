@@ -1,0 +1,263 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 26.09.2019 17:49:23
+-- Design Name: 
+-- Module Name: SM_ctrl - rtl
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+library UNISIM;
+use UNISIM.vcomponents.all;
+
+entity SM_ctrl_real is
+  Port ( 
+        aclk        : in    std_logic;
+        aresetn     : in    std_logic;
+		--
+        clk200      : in    std_logic;  -- synchronous respect to aclk
+        --		
+		max_acc		: in	std_logic_vector(23 downto 0);
+		tgt_spd		: in	std_logic_vector(17 downto 0);
+		dir			: in	std_logic;
+		load		: in	std_logic;
+		res			: in	std_logic_vector(1 downto 0);
+		init_spd	: in	std_logic_vector(9 downto 0);
+		cnt_o		: in	std_logic_vector(31 downto 0);
+		cnt_i		: out	std_logic_vector(31 downto 0);
+		ramp_up		: in	std_logic;
+		ramp_dwn	: in	std_logic;
+		spd_chg		: in	std_logic;
+		slw_stps	: in	std_logic;
+		fst_stps	: in	std_logic;
+		running		: out	std_logic;
+		irq_mask	: in	std_logic;
+		irq_in		: out	std_logic;
+		irq_clr		: in	std_logic;
+		vld_in		: out	std_logic;
+		vld_out		: in	std_logic;
+		--
+		port_ref	: out	std_logic;
+		port_clk    : out	std_logic;
+		port_ena	: out	std_logic;
+		port_dir	: out	std_logic;
+		port_m2P	: out	std_logic;
+		port_m1P	: out	std_logic	      				   
+    );
+end SM_ctrl_real;
+
+architecture rtl of SM_ctrl_real is
+
+constant EC_init_int         : natural     := 2_500_000;
+constant ACC_init_int        : natural     := 2_097_151;    -- 2_097_151 is top acceleration
+
+constant Pulse_len_greater_tW  : natural     := 2_200;      -- tW is the minimum pulse len admitted by SM controller.
+
+------- reset tree resampling  -------------------------------------------------------
+signal aresetn_loc                        : std_logic := '1'; 
+signal resetn                             : std_logic := '0';    
+signal reset                              : std_logic := '1'; 
+
+------- (EC, ACC) -> NEXT_EC engine --------------------------------------------------
+
+-- Parameters, pseudo-constants                                
+signal EC_pull_in        : STD_LOGIC_VECTOR(21 DOWNTO 0) := std_logic_vector(TO_SIGNED(EC_init_int, 22));
+signal ACC               : STD_LOGIC_VECTOR(21 DOWNTO 0) := std_logic_vector(TO_SIGNED(ACC_init_int, 22));
+-- Status in 
+signal EC                : STD_LOGIC_VECTOR(21 DOWNTO 0) := std_logic_vector(TO_SIGNED(EC_init_int, 22));
+signal from_still        : STD_LOGIC := '1';
+signal to_still          : STD_LOGIC := '0';
+signal vld_i             : STD_LOGIC := '0';
+-- Status out
+signal Next_EC           : STD_LOGIC_VECTOR(21 DOWNTO 0) := std_logic_vector(TO_SIGNED(EC_init_int, 22));
+signal still             : STD_LOGIC := '1';
+signal vld_o             : STD_LOGIC := '0';
+
+
+signal new_ec_cnt_dbg    : std_logic_vector(15 downto 0); 
+
+signal stp_cnt           : std_logic_vector(21 downto 0) := std_logic_vector(TO_UNSIGNED(1, 22));
+signal Next_EC_loc       : STD_LOGIC_VECTOR(21 DOWNTO 0) := (others => '0');
+
+signal pulse_cnt         : std_logic_vector(15 downto 0) := (others => '0');        
+signal clock_loc         : std_logic := '0';
+  
+component next_ec_engine is
+  Port ( 
+        -- clk & reset
+        aresetn     : in    std_logic;
+        aclk        : in    std_logic;
+        clk200      : in    std_logic;  -- synchronous respect to aclk
+        -- Parameters
+        EC_pull_in  : in    STD_LOGIC_VECTOR(21 DOWNTO 0);  -- unsigned
+        ACC         : in    STD_LOGIC_VECTOR(21 DOWNTO 0);  -- signed        
+        -- Status in       
+        EC          : in    STD_LOGIC_VECTOR(21 DOWNTO 0);  -- unsigned
+        from_still  : in    STD_LOGIC;
+        to_still    : in    STD_LOGIC;
+        vld_in      : in	std_logic;
+        -- Status out
+        Next_EC     : out   STD_LOGIC_VECTOR(21 DOWNTO 0);  -- unsigned
+        still       : out   STD_LOGIC;
+        valid_out   : out   STD_LOGIC      				   
+    );
+end component next_ec_engine;
+
+begin
+
+------- reset trees resampling  ----------------------------
+
+    rst_gen: process (aclk)
+    begin       
+       if rising_edge(aclk) then
+         aresetn_loc <= aresetn;
+         resetn      <= aresetn_loc;
+         reset       <= not(aresetn_loc);      
+       end if;
+    end process rst_gen; 
+
+    
+------- (EC, ACC) -> NEXT_EC engine --------------------------------------------------  
+
+nxt_ec : next_ec_engine
+  Port map ( 
+        -- clk & reset
+        aresetn     => aresetn,
+        aclk        => aclk,     
+        clk200      => clk200,      
+        -- Parameters
+        EC_pull_in  => EC_pull_in,  
+        ACC         => ACC,         
+        -- Status in
+        EC          => EC,          
+        from_still  => from_still,  
+        to_still    => to_still,    
+        vld_in      => vld_i,      
+        -- Status out -- Status ou
+        Next_EC     => Next_EC,     
+        still       => still,       
+        valid_out   => vld_o   
+    );
+
+-------------------------------------------------------------------------------------
+
+    EC_gen_dbg: process (clk200)
+    begin       
+       if rising_edge(clk200) then
+        if (reset = '1') then
+            new_ec_cnt_dbg      <= X"0000";
+            
+            stp_cnt             <= std_logic_vector(TO_SIGNED(1, 22));
+
+            pulse_cnt           <= (others => '0'); 
+            clock_loc           <= '0';     
+            
+            EC_pull_in          <= std_logic_vector(TO_SIGNED( EC_init_int, 22));                
+            ACC                 <= std_logic_vector(TO_SIGNED(ACC_init_int, 22));         
+            
+            EC                  <= std_logic_vector(TO_SIGNED(       4_000, 22));
+            Next_EC_loc         <= std_logic_vector(TO_SIGNED(       4_000, 22));                        
+            from_still          <= '1';  
+            to_still            <= '0';    
+            vld_i               <= '0';     
+        else
+        
+            
+            EC_pull_in          <= std_logic_vector(TO_SIGNED(   4_000, 22));                
+            ACC                 <= std_logic_vector(TO_SIGNED(1_000_000, 22));           
+        
+            if (stp_cnt = 1) then
+                stp_cnt  <= stp_cnt + "01";
+                vld_i    <= '1'; 
+                EC       <= Next_EC_loc;                   
+            elsif (stp_cnt = EC) then
+                stp_cnt  <= std_logic_vector(TO_SIGNED(1, 22));
+                vld_i    <= '0'; 
+            else
+                stp_cnt  <= stp_cnt + "01";
+                vld_i    <= '0'; 
+            end if;
+
+            if (pulse_cnt = 0) then
+                if (vld_i = '1') then
+                    pulse_cnt <= pulse_cnt + "01";
+                    clock_loc <= '1';
+                else
+                    pulse_cnt <= (others => '0');
+                    clock_loc <= '0';
+                end if;
+            elsif (pulse_cnt = Pulse_len_greater_tW) then
+                pulse_cnt <= (others => '0');
+                clock_loc <= '0';
+            else
+                pulse_cnt <= pulse_cnt + "01";
+                clock_loc <= '1';
+            end if;
+                                        
+
+            if (vld_o = '1') then
+                Next_EC_loc <= Next_EC;
+            end if;   
+
+         end if;                                                                
+       end if;
+    end process EC_gen_dbg; 
+    
+    
+    port_ref <=  vld_o;
+    port_clk <=  clock_loc;
+    port_ena <=  Next_EC(21) xor
+                 Next_EC(20) xor
+                 Next_EC(19) xor
+                 Next_EC(18) xor
+                 Next_EC(17) xor
+                 Next_EC(16) xor
+                 Next_EC(15) xor
+                 Next_EC(14) xor
+                 Next_EC(13) xor
+                 Next_EC(12) xor
+                 Next_EC(11) xor
+                 Next_EC(10) xor
+                 Next_EC( 9) xor
+                 Next_EC( 8) xor
+                 Next_EC( 7) xor
+                 Next_EC( 6) xor
+                 Next_EC( 5) xor
+                 Next_EC( 4) xor
+                 Next_EC( 3) xor
+                 Next_EC( 2) xor
+                 Next_EC( 1) xor
+                 Next_EC( 0);    
+    
+
+---------------------------------------------------------------------------
+
+--		port_ref	<= '0';
+--		port_clk	<= '0';
+--		port_ena	<= '0';
+		port_dir	<= '0';
+		port_m2P	<= '0';
+		port_m1P	<= '0';
+		
+		
+		
+		
+
+end rtl;

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/SM_req_fifo/sim/SM_req_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SM_req_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/SM_status_fifo/sim/SM_status_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SM_status_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MW/RTT/VVD/S/S_2/repo/SM_alg_server/SM_alg_server.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

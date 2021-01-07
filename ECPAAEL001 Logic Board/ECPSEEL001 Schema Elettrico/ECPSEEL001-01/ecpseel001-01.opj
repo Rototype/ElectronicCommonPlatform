@@ -1,0 +1,58 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "\\rotohomeserver\schematic_symbols\rototype_components.olb"
+        (Type "Schematic Library")))
+    (File ".\ecpseel001-01.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\ecpseel001-01.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\SviluppoHw\ECP 1000\ECPAAEL001-01\export.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{PART_NUMBER}\t{Description}\t{Value}\t{Source Package}\t{PCB Footprint}\t{Manufacturer}\t{Manufacturer PN}\t{Datasheet}")
+    (BOM_Header
+       "PART_NUMBER\tDescription\tValue\tSource Package\tPCB Footprint\tManufacturer\tManufacturer PN\tDatasheet")
+    (BOM_Include_File
+       "C:\SVILUPPOHW\ECP 1000\RLB - SCHEMA REVISIONE 1U\ECPSEEL001-01_STE_281020.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (EXPORT_Scope "0")
+    (EXPORT_Contents "0")
+    (EXPORT_File_Name "C:\SviluppoHw\ECP 1000\ECPAAEL001-01\properties.EXP")
+    (NoModify))
+  (Folder "Outputs"
+    (File ".\properties.exp"
+      (Type "Report"))
+    (File ".\ecpseel001-01.bom"
+      (Type "Report"))
+    (File ".\export.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (WM8524GEDT
+      (FullPartName "WM8524GEDT.Normal")
+      (LibraryName "\\ROTOHOMESERVER\SCHEMATIC_SYMBOLS\ROTOTYPE_COMPONENTS.OLB")
+      (DeviceIndex "0"))
+    (BSN20BK
+      (FullPartName "BSN20BK.Normal")
+      (LibraryName "C:\SVILUPPOHW\ECP 1000\RLB - SCHEMA REVISIONE 1U\TEST.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\ecpseel001-01.dsn")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 627 0 718"))
+      (Tab 0)))
+  (MPSSessionName "a.gori"))

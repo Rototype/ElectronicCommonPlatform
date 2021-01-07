@@ -1,0 +1,28 @@
+09:06:40 **** Build of configuration Debug for project rtosCLI ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BSP_RotoTypeRTOS/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building file: ../FreeRTOS-Plus-CLI/FreeRTOS_CLI.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"FreeRTOS-Plus-CLI/FreeRTOS_CLI.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BSP_RotoTypeRTOS/ps7_cortexa9_0/include -MMD -MP -MF"FreeRTOS-Plus-CLI/FreeRTOS_CLI.d" -MT"FreeRTOS-Plus-CLI/FreeRTOS_CLI.o" -o "FreeRTOS-Plus-CLI/FreeRTOS_CLI.o" "../FreeRTOS-Plus-CLI/FreeRTOS_CLI.c"
+../FreeRTOS-Plus-CLI/FreeRTOS_CLI.c:92:30: error: 'configCOMMAND_INT_MAX_OUTPUT_SIZE' undeclared here (not in a function); did you mean 'configMINIMAL_STACK_SIZE'?
+ static int8_t cOutputBuffer[ configCOMMAND_INT_MAX_OUTPUT_SIZE ];
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                              configMINIMAL_STACK_SIZE
+../FreeRTOS-Plus-CLI/FreeRTOS_CLI.c: In function 'FreeRTOS_CLIGetOutputBuffer':
+../FreeRTOS-Plus-CLI/FreeRTOS_CLI.c:215:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../FreeRTOS-Plus-CLI/FreeRTOS_CLI.c:92:15: warning: 'cOutputBuffer' defined but not used [-Wunused-variable]
+ static int8_t cOutputBuffer[ configCOMMAND_INT_MAX_OUTPUT_SIZE ];
+               ^~~~~~~~~~~~~
+make: *** [FreeRTOS-Plus-CLI/subdir.mk:20: FreeRTOS-Plus-CLI/FreeRTOS_CLI.o] Error 1
+
+09:06:40 Build Finished (took 516ms)
+

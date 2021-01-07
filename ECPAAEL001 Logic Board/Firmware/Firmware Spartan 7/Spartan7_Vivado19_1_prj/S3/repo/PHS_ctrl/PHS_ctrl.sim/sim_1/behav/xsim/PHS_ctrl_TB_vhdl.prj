@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PHS_ctrl.srcs/sources_1/new/PHS_ctrl.vhd" \
+"../../../../PHS_ctrl.srcs/sim_1/new/PHS_ctrl_TESTER.vhd" \
+"../../../../PHS_ctrl.srcs/sources_1/new/PHS_ctrl_fake.vhd" \
+"../../../../PHS_ctrl.srcs/sources_1/new/PHS_ctrl_real.vhd" \
+"../../../../PHS_ctrl.srcs/sim_1/new/PHS_ctrl_TB.vhd" \
+
+# Do not sort compile order
+nosort
