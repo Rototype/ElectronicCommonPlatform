@@ -13,10 +13,10 @@
     (CompileFileAddedOrDeleted "x")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "C:\SviluppoHw\ECP 1000\ECPAAEL002-01\export.BOM")
+    (BOM_Report_File "C:\SviluppoHw\ECP 1000\ECPAAEL002-01\ecpseel002-01.bom")
     (BOM_Merge_Include "FALSE")
     (BOM_Header
-       "PART_NUMBER\tDescription\tValue\tSource Package\tPCB Footprint\tManufacturer\tManufacturer PN\tDatasheet")
+       "Item\tQuantity\tReference\tValue\tDescription\tPackage Size\tPCB Footprint\tASSY_OPT\tPART_NUMBER")
     (BOM_Include_File
        "\\FILESRV\DESIGN\ECP 1000 ELECTRONIC COMMON PLATFORM\PROGETTO\PROGETTO ELETTRONICO\SCHEDE\ECPAAEL002 POWER BOARD\ECPSEEL002 SCHEMA ELETTRICO\ECPSEEL002-01\ECPSEEL002-01.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
@@ -26,67 +26,31 @@
     (NoModify)
     (EXPORT_Scope "0")
     (EXPORT_Contents "0")
-    (EXPORT_File_Name "C:\SviluppoHw\ECP 1000\ECPAAEL002-01\properties.EXP")
+    (EXPORT_File_Name "C:\SviluppoHw\ECP 1000\ECPAAEL002-01\properties.exp")
     (BOM_Property_Combine_7.0
-       "{PART_NUMBER}\t{Description}\t{Value}\t{Source Package}\t{PCB Footprint}\t{Manufacturer}\t{Manufacturer PN}\t{Datasheet}"))
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Description}\t/0x22/{Package Size}/0x22/\t{PCB Footprint}\t{ASSY_OPT}\t{PART_NUMBER}"))
   (Folder "Outputs"
     (File ".\export.bom"
       (Type "Report"))
     (File ".\ecpseel002-01.bom"
       (Type "Report"))
     (File ".\properties.exp"
-      (Type "Report")))
+      (Type "Report"))
+    (Sort User)
+    (File "ECPSEEL001-01.PRP"
+      (Type "Report")
+      (DisplayName "ECPSEEL001-01.PRP")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\ecpseel002-01.dsn")
-      (Path "Design Resources" ".\ecpseel002-01.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\ecpseel002-01.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 311"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1811 156 506")
-        (Scroll "-224 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\SVILUPPOHW\ECP 1000\ECPAAEL002-01\ECPSEEL002-01.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "09 - SOLENOID"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1785 130 480")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\SVILUPPOHW\ECP 1000\ECPAAEL002-01\ECPSEEL002-01.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "03 - DC MOTOR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1811 156 506")
-        (Scroll "-219 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\SVILUPPOHW\ECP 1000\ECPAAEL002-01\ECPSEEL002-01.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "05 - 1 DIGITAL_PHOTO - 0-5"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1655 0 350"))
-      (Path "c:\sviluppohw\ecp 1000\ecpaael002-01\export.bom")
-      (Scroll "0")))
+      (Tab 0)))
   (MPSSessionName "a.gori")
   (PartMRUSelector
     (CR16-223JM
