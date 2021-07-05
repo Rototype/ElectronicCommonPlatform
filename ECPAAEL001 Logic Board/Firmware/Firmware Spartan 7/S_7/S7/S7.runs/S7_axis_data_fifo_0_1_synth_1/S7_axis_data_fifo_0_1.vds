@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 30 11:21:58 2021
+# Process ID: 1080
+# Current directory: D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/S7_axis_data_fifo_0_1_synth_1
+# Command line: vivado.exe -log S7_axis_data_fifo_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source S7_axis_data_fifo_0_1.tcl
+# Log file: D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/S7_axis_data_fifo_0_1_synth_1/S7_axis_data_fifo_0_1.vds
+# Journal file: D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/S7_axis_data_fifo_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source S7_axis_data_fifo_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Eda_Tools/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP S7_axis_data_fifo_0_1, cache-ID = c089af187361494f.
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 30 11:22:03 2021...

@@ -1,0 +1,6 @@
+17:32:36 **** Incremental Build of configuration Debug for project hello_bsp_xaxidma_example_simple_poll_1 ****
+make all 
+make: Nothing to be done for 'all'.
+
+17:32:37 Build Finished (took 196ms)
+

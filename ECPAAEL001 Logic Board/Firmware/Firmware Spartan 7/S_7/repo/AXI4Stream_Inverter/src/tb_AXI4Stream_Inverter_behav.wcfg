@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_AXI4Stream_Inverter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_AXI4Stream_Inverter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2993877fs"></ZoomEndTime>
+      <Cursor1Time time="42000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="369"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider299">
+      <obj_property name="label">INPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/s00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s00_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tdata[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider300">
+      <obj_property name="label">INVERTED OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/m00_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m00_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tdata[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider301">
+      <obj_property name="label">HANDSHAKING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/s00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/m00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider302">
+      <obj_property name="label">PACKET DIMENSION</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/dut_Inverter/Inst_AXI4Stream_InverterWrapper/Inst_Inverter/packet_counter" type="other">
+      <obj_property name="ElementShortName">packet_counter</obj_property>
+      <obj_property name="ObjectShortName">packet_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/dut_Inverter/Inst_AXI4Stream_InverterWrapper/Inst_Inverter/counter" type="array">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/m00_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/s00_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/m00_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/s00_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider297">
+      <obj_property name="label">CONSTANTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/RESET_WAIT" type="other">
+      <obj_property name="ElementShortName">RESET_WAIT</obj_property>
+      <obj_property name="ObjectShortName">RESET_WAIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/VALID_WAIT" type="other">
+      <obj_property name="ElementShortName">VALID_WAIT</obj_property>
+      <obj_property name="ObjectShortName">VALID_WAIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI4Stream_Inverter/DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH</obj_property>
+   </wvobject>
+</wave_config>

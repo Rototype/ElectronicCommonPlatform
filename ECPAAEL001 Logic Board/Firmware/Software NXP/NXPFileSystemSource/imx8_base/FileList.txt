@@ -1,0 +1,3 @@
+(imx-boot-imx8mqevk-sd.bin) file .bin needed to load bootloader to sdcard/emmc
+(core-image-base-imx8mqevk-20200723035856.rootfs.tar.bz2) base root filesystem for IMX8MQ
+

@@ -1,0 +1,27 @@
+--- fsl-imx8mq-evk.dts.ORIGINALE	2021-03-10 14:06:51.093284162 +0100
++++ fsl-imx8mq-evk.dts.MODIFICATO	2021-04-16 10:25:35.481965884 +0200
+@@ -1087,8 +1087,9 @@
+ 		clocks = <0x4 0xc2 0x4 0xc2>;
+ 		clock-names = "ipg", "per";
+ 		status = "okay";
++		spi-slave;
+ 
+-		spi@1 {
++		slave@1 {
+ 			reg = <0x0>;
+ 			compatible = "spidev";
+ 			spi-max-frequency = <0x1312d00>;
+@@ -2020,13 +2021,6 @@
+ 		};
+ 	};
+ 
+-	ir-receiver {
+-		compatible = "gpio-ir-receiver";
+-		gpios = <0x4c 0xc 0x1>;
+-		pinctrl-names = "default";
+-		pinctrl-0 = <0x5f>;
+-	};
+-
+ 	brcmfmac {
+ 		compatible = "cypress,brcmfmac";
+ 		pinctrl-names = "init", "idle", "default";

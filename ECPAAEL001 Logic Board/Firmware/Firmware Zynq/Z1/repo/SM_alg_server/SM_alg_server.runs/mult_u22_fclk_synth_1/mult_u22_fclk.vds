@@ -1,0 +1,428 @@
+#-----------------------------------------------------------
+# Vivado v2018.3_AR72013 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr 15 06:10:58 2020
+# Process ID: 20024
+# Current directory: D:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1
+# Command line: vivado.exe -log mult_u22_fclk.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_u22_fclk.tcl
+# Log file: D:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1/mult_u22_fclk.vds
+# Journal file: D:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_u22_fclk.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MW/RTT/VVD/ZED/P0/repo'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/MW/RTT/VVD/ZED/P0/repo' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1'.)
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_gt_if:1.0' found within IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip'.
+File in use: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml
+File ignored: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_gt_if.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_gt_if_rtl:1.0' found within IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip'.
+File in use: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if_rtl.xml
+File ignored: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_gt_if_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0' found within IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip'.
+File in use: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom.xml
+File ignored: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_ext_gtcom.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom_rtl:1.0' found within IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip'.
+File in use: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+File ignored: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0' found within IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip'.
+File in use: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom.xml
+File ignored: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_int_gtcom.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom_rtl:1.0' found within IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip'.
+File in use: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom_rtl.xml
+File ignored: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_int_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_qdma:usr_flr_rtl:1.0' found within IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip'.
+File in use: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/msix_vector_ctrl_rtl.xml
+File ignored: c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/usr_flr_rtl.xml
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_control:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_control.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_control.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_external_msix:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_ext_msix.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_mgmt:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_mgmt.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_mgmt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_external:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_internal:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix_int.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_msix_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_pm:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_pm.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_pm.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_status:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_status.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_status.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pcie_id:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pcie_id.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_pcie_id.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pl:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pl.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_pl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:transceiver_debug:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/transceiver_debug.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:axis_c2h_drop:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/axis_c2h_drop.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/axis_c2h_drop.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:c2h_byp_in_mm:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/c2h_byp_in_mm.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/c2h_byp_in_mm.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:c2h_byp_in_st:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/c2h_byp_in_st.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/c2h_byp_in_st.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:c2h_byp_out:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/c2h_byp_out.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/c2h_byp_out.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:dsc_bypass:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/dsc_bypass.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/dsc_bypass.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:dsc_crdt_in:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/dsc_crdt_in.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/dsc_crdt_in.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:h2c_byp_in_mm:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_in_mm.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_in_mm.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:h2c_byp_in_st:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_in_st.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_in_st.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:h2c_byp_out:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_out.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_out.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:msix_vector_ctrl:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/msix_vector_ctrl.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/msix_vector_ctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:m_axis_h2c:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/m_axis_h2c.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/m_axis_h2c.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_7x_transceiver_debug.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_7x_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:ext_shared_logic:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_ext_shared_logic.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_ext_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:int_shared_logic:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_int_shared_logic.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_int_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_transceiver_debug.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_us_plus_transceiver_debug.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_us_plus_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:pcie_cfg_external_msix:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie_cfg_ext_msix.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_debug:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/pcie_debug.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/pcie_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:st_rx_msg:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/st_rx_msg.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/st_rx_msg.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:s_axis_c2h:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_c2h.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_c2h.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:s_axis_c2h_cmpt:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_cmpt.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_cmpt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:tm_dsc_sts:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/tm_dsc_sts.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/tm_dsc_sts.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:usr_flr:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/usr_flr.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/usr_flr.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:usr_irq:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/usr_irq.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/usr_irq.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_debug_ports:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/xdma_debug_ports.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/xdma_debug_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_status_ports:1.0'. The one found in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/patches/AR72013_Vivado_2018_3_preliminary_rev2/vivado/data/ip/xilinx/qdma_v3_0/interfaces/xdma_status_ports.xml' will take precedence over the same Interface in location 'c:/Eda_Tools/Xilinx/Vivado/2018.3/data/ip/xilinx/qdma_v3_0/interfaces/xdma_status_ports.xml'
+Command: synth_design -top mult_u22_fclk -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23476 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 536.789 ; gain = 95.020
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mult_u22_fclk' [d:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/synth/mult_u22_fclk.vhd:68]
+WARNING: [Synth 8-5640] Port 'zero_detect' is missing in component declaration [d:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/synth/mult_u22_fclk.vhd:71]
+WARNING: [Synth 8-5640] Port 'pcasc' is missing in component declaration [d:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/synth/mult_u22_fclk.vhd:71]
+	Parameter C_VERBOSITY bound to: 0 - type: integer 
+	Parameter C_MODEL_TYPE bound to: 0 - type: integer 
+	Parameter C_OPTIMIZE_GOAL bound to: 1 - type: integer 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_HAS_CE bound to: 0 - type: integer 
+	Parameter C_HAS_SCLR bound to: 1 - type: integer 
+	Parameter C_LATENCY bound to: 5 - type: integer 
+	Parameter C_A_WIDTH bound to: 22 - type: integer 
+	Parameter C_A_TYPE bound to: 1 - type: integer 
+	Parameter C_B_WIDTH bound to: 28 - type: integer 
+	Parameter C_B_TYPE bound to: 1 - type: integer 
+	Parameter C_OUT_HIGH bound to: 49 - type: integer 
+	Parameter C_OUT_LOW bound to: 0 - type: integer 
+	Parameter C_MULT_TYPE bound to: 2 - type: integer 
+	Parameter C_CE_OVERRIDES_SCLR bound to: 0 - type: integer 
+	Parameter C_CCM_IMP bound to: 1 - type: integer 
+	Parameter C_B_VALUE bound to: 1011111010111100001000000000 - type: string 
+	Parameter C_HAS_ZERO_DETECT bound to: 0 - type: integer 
+	Parameter C_ROUND_OUTPUT bound to: 0 - type: integer 
+	Parameter C_ROUND_PT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_14' declared at 'd:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/hdl/mult_gen_v12_0_vh_rfs.vhd:21013' bound to instance 'U0' of component 'mult_gen_v12_0_14' [d:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/synth/mult_u22_fclk.vhd:121]
+INFO: [Synth 8-5811] Detected attribute (* ram_style  = "block" *) on module ccm_dp_block_mem 
+INFO: [Synth 8-5811] Detected attribute (* ram_style  = "block" *) on module ccm_sp_block_mem 
+INFO: [Synth 8-256] done synthesizing module 'mult_u22_fclk' (10#1) [d:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/synth/mult_u22_fclk.vhd:68]
+WARNING: [Synth 8-3331] design ccm_scaled_adder has unconnected port ADD
+WARNING: [Synth 8-3331] design ccm_scaled_adder has unconnected port ADD_IN_CE
+WARNING: [Synth 8-3331] design ccm_scaled_adder has unconnected port ROM_CE
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[8]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[7]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[6]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[5]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[4]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[3]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[2]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[1]
+WARNING: [Synth 8-3331] design ccm_syncmem__parameterized0 has unconnected port ADDR_B0[0]
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized0 has unconnected port ADD
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized0 has unconnected port ADD_IN_CE
+WARNING: [Synth 8-3331] design ccm_scaled_adder__parameterized0 has unconnected port ROM_CE
+WARNING: [Synth 8-3331] design delay_line has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized0 has unconnected port CLK
+WARNING: [Synth 8-3331] design delay_line__parameterized0 has unconnected port CE
+WARNING: [Synth 8-3331] design delay_line__parameterized0 has unconnected port SCLR
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[18]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[17]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[16]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[15]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[14]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[13]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[12]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[11]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[10]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[9]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[8]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[7]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[6]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[5]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[4]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[3]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[2]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[1]
+WARNING: [Synth 8-3331] design ccm_operation has unconnected port B[0]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[27]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[26]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[25]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[24]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[23]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[22]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[21]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[20]
+WARNING: [Synth 8-3331] design ccm has unconnected port B[19]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port CE
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 623.355 ; gain = 181.586
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 623.355 ; gain = 181.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 623.355 ; gain = 181.586
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/mult_u22_fclk_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.srcs/sources_1/ip/mult_u22_fclk/mult_u22_fclk_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 952.895 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 952.895 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 954.398 ; gain = 1.504
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 954.398 ; gain = 512.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 954.398 ; gain = 512.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 954.398 ; gain = 512.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 954.398 ; gain = 512.629
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[27]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[26]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[25]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[24]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[23]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[22]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[21]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[20]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[19]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[18]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[17]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[16]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[15]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[14]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[13]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[12]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[11]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[10]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[9]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[8]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[7]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[6]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[5]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[4]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[3]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[2]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[1]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port B[0]
+WARNING: [Synth 8-3331] design mult_gen_v12_0_14_viv has unconnected port CE
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 954.398 ; gain = 512.629
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 954.398 ; gain = 512.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 954.398 ; gain = 512.629
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 956.961 ; gain = 515.191
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 956.961 ; gain = 515.191
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 956.961 ; gain = 515.191
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 956.961 ; gain = 515.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 956.961 ; gain = 515.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 956.961 ; gain = 515.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 956.961 ; gain = 515.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |    14|
+|2     |LUT2       |    39|
+|3     |RAMB18E1_1 |     1|
+|4     |RAMB36E1_1 |     1|
+|5     |FDRE       |   181|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 956.961 ; gain = 515.191
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 956.961 ; gain = 184.148
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 956.961 ; gain = 515.191
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 966.375 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 126 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 966.375 ; gain = 536.074
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 966.375 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1/mult_u22_fclk.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mult_u22_fclk, cache-ID = 64126c04f53ef116
+INFO: [Coretcl 2-1174] Renamed 11 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 966.375 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/MW/RTT/VVD/ZED/P0/repo/SM_alg_server/SM_alg_server.runs/mult_u22_fclk_synth_1/mult_u22_fclk.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mult_u22_fclk_utilization_synth.rpt -pb mult_u22_fclk_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 15 06:11:42 2020...

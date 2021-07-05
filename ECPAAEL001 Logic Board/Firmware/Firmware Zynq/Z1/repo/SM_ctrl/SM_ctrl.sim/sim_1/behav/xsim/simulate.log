@@ -1,0 +1,6 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 12500 ps  Iteration: 2  Process: /SM_ctrl_TB/server/nxt_ec/NEXT_EC_div/U0/i_synth/i_nonzero_fract/i_synth/opt_high_radix/i_nonzero_fract/i_high_radix/i_fixed/i_fix_to_flt/i_fpo/has_aresetn/check_reset  File: /wrk/2019.sub/2019.1.3/continuous/2019_09_04_2644227/packages/customer/vivado/data/ip/xilinx/floating_point_v7_0/hdl/floating_point_v7_0_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 17500 ps  Iteration: 2  Process: /SM_ctrl_TB/server/nxt_ec/NEXT_EC_div/U0/i_synth/i_nonzero_fract/i_synth/opt_high_radix/i_nonzero_fract/i_high_radix/i_fixed/i_fix_to_flt/i_fpo/has_aresetn/check_reset  File: /wrk/2019.sub/2019.1.3/continuous/2019_09_04_2644227/packages/customer/vivado/data/ip/xilinx/floating_point_v7_0/hdl/floating_point_v7_0_vh_rfs.vhd

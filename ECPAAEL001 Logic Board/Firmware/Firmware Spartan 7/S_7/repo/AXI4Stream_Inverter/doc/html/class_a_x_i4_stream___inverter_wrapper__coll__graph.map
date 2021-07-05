@@ -1,0 +1,4 @@
+<map id="AXI4Stream_InverterWrapper" name="AXI4Stream_InverterWrapper">
+<area shape="rect" id="node1" title="The output of this module contains m00_axis_tdata which is the inverted input s00_axis_tdata (In real..." alt="" coords="5,80,192,107"/>
+<area shape="rect" id="node2" href="$class_inverter.html" title="The output of this module contains inverted_tdata which is the inverted input in_tdata (In reality ju..." alt="" coords="67,5,130,32"/>
+</map>

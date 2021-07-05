@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../SM_ctrl.srcs/sources_1/ip/mult_s22_10995/sim/mult_s22_10995.vhd" \
+
+nosort

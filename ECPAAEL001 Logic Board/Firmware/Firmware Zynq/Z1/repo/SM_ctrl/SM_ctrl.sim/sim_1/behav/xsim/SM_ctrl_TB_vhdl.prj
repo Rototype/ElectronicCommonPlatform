@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../SM_ctrl.srcs/sources_1/ip/div_s50_s36_lat34/sim/div_s50_s36_lat34.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/ip/add_s36_fclk_lat3/sim/add_s36_fclk_lat3.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/ip/mult_s36_u43_lat7/sim/mult_s36_u43_lat7.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/ip/mult_s22_10995/sim/mult_s22_10995.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/ip/mult_u22_u22/sim/mult_u22_u22.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/ip/mult_u22_fclk/sim/mult_u22_fclk.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/new/SM_alg_server_loc.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/new/SM_ctrl.vhd" \
+"../../../../SM_ctrl.srcs/sim_1/new/SM_ctrl_TESTER.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/new/SM_ctrl_fake.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/new/SM_ctrl_real.vhd" \
+"../../../../SM_ctrl.srcs/sources_1/new/next_ec_engine.vhd" \
+"../../../../SM_ctrl.srcs/sim_1/new/SM_ctrl_TB.vhd" \
+
+# Do not sort compile order
+nosort

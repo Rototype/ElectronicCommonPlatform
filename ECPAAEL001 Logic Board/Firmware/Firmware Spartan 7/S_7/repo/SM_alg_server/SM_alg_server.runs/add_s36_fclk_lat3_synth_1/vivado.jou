@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Tue Oct 13 16:43:03 2020
+# Process ID: 77660
+# Current directory: D:/MW/RTT/VVD/S/S_3/repo/SM_alg_server/SM_alg_server.runs/add_s36_fclk_lat3_synth_1
+# Command line: vivado.exe -log add_s36_fclk_lat3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source add_s36_fclk_lat3.tcl
+# Log file: D:/MW/RTT/VVD/S/S_3/repo/SM_alg_server/SM_alg_server.runs/add_s36_fclk_lat3_synth_1/add_s36_fclk_lat3.vds
+# Journal file: D:/MW/RTT/VVD/S/S_3/repo/SM_alg_server/SM_alg_server.runs/add_s36_fclk_lat3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source add_s36_fclk_lat3.tcl -notrace

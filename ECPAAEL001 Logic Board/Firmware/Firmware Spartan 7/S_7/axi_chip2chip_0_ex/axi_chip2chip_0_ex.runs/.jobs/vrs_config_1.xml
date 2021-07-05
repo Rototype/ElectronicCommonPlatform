@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="axi_chip2chip_partner_synth_1" LaunchDir="d:/MW/RTT/VVD/S/S_4/axi_chip2chip_0_ex/axi_chip2chip_0_ex.runs/axi_chip2chip_partner_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

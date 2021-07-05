@@ -1,0 +1,718 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May  4 10:12:19 2021
+# Process ID: 17244
+# Current directory: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1420 D:\MW\RTT\VVD\S\S_7-Working\S_7\S7\S7.xpr
+# Log file: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/vivado.log
+# Journal file: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MW/RTT/VVD/S/S_7-Working/S_7/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Eda_Tools/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 965.227 ; gain = 249.012
+open_bd_design {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/S7.bd}
+Adding component instance block -- xilinx.com:user:DCM_regs:1.0 - DCM_regs_0
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_0
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_1
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_2
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_3
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_4
+Adding component instance block -- xilinx.com:user:RT_timebase:1.0 - RT_timebase_0
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_0
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_10
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_11
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_12
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_13
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_14
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_15
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_16
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_17
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_18
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_19
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_1
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_20
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_21
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_22
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_23
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_24
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_25
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_26
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_27
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_28
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_29
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_2
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_30
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_31
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_32
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_33
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_34
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_35
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_36
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_37
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_38
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_39
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_3
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_40
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_41
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_42
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_43
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_44
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_45
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_46
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_47
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_48
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_49
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_4
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_5
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_6
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_7
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_8
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_9
+Adding component instance block -- xilinx.com:user:PHS_regs:1.0 - PHS_regs_0
+Adding component instance block -- xilinx.com:user:SM_alg_server:1.0 - SM_alg_server_0
+Adding component instance block -- xilinx.com:user:SM_alg_server:1.0 - SM_alg_server_1
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_0
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_10
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_11
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_12
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_13
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_14
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_15
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_16
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_17
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_18
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_19
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_1
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_2
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_3
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_4
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_5
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_6
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_7
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_8
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_9
+Adding component instance block -- xilinx.com:user:SM_regs:1.0 - SM_regs_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:util_idelay_ctrl:1.0 - util_idelay_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_1
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - ibufgds_200
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - bufg_200
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_0
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_1
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_2
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_3
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_4
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_5
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_6
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_7
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_8
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_9
+Adding component instance block -- xilinx.com:user:SOL_regs:1.0 - SOL_regs_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - inv_rst
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_1
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - m00_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - axi_c2c_s
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- MindWay:user:AXI4_Stream_Inverter:1.0 - AXI4_Stream_Inverter_0
+Excluding </DCM_5/DCM_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_MM2S>
+Excluding </PHS_50/PHS_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_MM2S>
+Excluding </SM_20/SM_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_MM2S>
+Excluding </SOL_10/SOL_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_MM2S>
+Excluding </axi_dma_1/S_AXI_LITE/Reg> from </axi_dma_1/Data_MM2S>
+Excluding </axi_gpio_0/S_AXI/Reg> from </axi_dma_1/Data_MM2S>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_dma_1/Data_MM2S>
+Excluding </DCM_5/DCM_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_S2MM>
+Excluding </PHS_50/PHS_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_S2MM>
+Excluding </SM_20/SM_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_S2MM>
+Excluding </SOL_10/SOL_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_S2MM>
+Excluding </axi_dma_1/S_AXI_LITE/Reg> from </axi_dma_1/Data_S2MM>
+Excluding </axi_gpio_0/S_AXI/Reg> from </axi_dma_1/Data_S2MM>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_dma_1/Data_S2MM>
+Excluding </axi_gpio_0/S_AXI/Reg> from </axi_c2c_s/MAXI-Lite>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_c2c_s/MAXI-Lite>
+Successfully read diagram <S7> from BD file <D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/S7.bd>
+update_compile_order -fileset sources_1
+delete_bd_objs [get_bd_nets AXI4_Stream_Inverter_0_counter] [get_bd_nets xlconstant_0_dout] [get_bd_nets AXI4_Stream_Inverter_0_file_dimension] [get_bd_cells system_ila_0]
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets AXI4_Stream_Inverter_0_counter] [get_bd_nets xlconstant_0_dout] [get_bd_nets AXI4_Stream_Inverter_0_file_dimension] [get_bd_cells system_ila_0]'
+delete_bd_objs [get_bd_cells xlconstant_0]
+delete_bd_objs [get_bd_nets AXI4_Stream_Inverter_0_counter] [get_bd_nets xlconstant_0_dout] [get_bd_nets AXI4_Stream_Inverter_0_file_dimension] [get_bd_cells system_ila_0]
+save_bd_design
+Wrote  : <D:\MW\RTT\VVD\S\S_7-Working\S_7\S7\S7.srcs\sources_1\bd\S7\S7.bd> 
+Wrote  : <D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/ui/bd_30fa0e64.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_AXI_ID_WIDTH(12) on '/axi_c2c_s' with propagated value(0). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_AXI_ID_WIDTH(12) on '/axi_c2c_s' with propagated value(1). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_AXI_ID_WIDTH(12) on '/axi_c2c_s' with propagated value(1). Command ignored
+INFO: AXI Chip2Chip instance: Clock port 'idelay_ref_clk' frequency DRC passed.
+CRITICAL WARNING: [BD 41-1761] Reset pin '/DCM_5/DCM_ctrl_0/aresetn' is found to be associated with multiple clock pins, which are not compatible w.r.t frequency, phase and clock-domain. This may prevent design from functioning correctly. Please ensure same reset pin is either not associated with different clock pins or all associated clock pins are driven by same or compatible clock source(s). List of associated clock pins:
+/DCM_5/DCM_ctrl_0/aclk
+/DCM_5/DCM_ctrl_0/clk200
+
+CRITICAL WARNING: [BD 41-1761] Reset pin '/DCM_5/DCM_ctrl_1/aresetn' is found to be associated with multiple clock pins, which are not compatible w.r.t frequency, phase and clock-domain. This may prevent design from functioning correctly. Please ensure same reset pin is either not associated with different clock pins or all associated clock pins are driven by same or compatible clock source(s). List of associated clock pins:
+/DCM_5/DCM_ctrl_1/aclk
+/DCM_5/DCM_ctrl_1/clk200
+
+CRITICAL WARNING: [BD 41-1761] Reset pin '/DCM_5/DCM_ctrl_2/aresetn' is found to be associated with multiple clock pins, which are not compatible w.r.t frequency, phase and clock-domain. This may prevent design from functioning correctly. Please ensure same reset pin is either not associated with different clock pins or all associated clock pins are driven by same or compatible clock source(s). List of associated clock pins:
+/DCM_5/DCM_ctrl_2/aclk
+/DCM_5/DCM_ctrl_2/clk200
+
+CRITICAL WARNING: [BD 41-1761] Reset pin '/DCM_5/DCM_ctrl_3/aresetn' is found to be associated with multiple clock pins, which are not compatible w.r.t frequency, phase and clock-domain. This may prevent design from functioning correctly. Please ensure same reset pin is either not associated with different clock pins or all associated clock pins are driven by same or compatible clock source(s). List of associated clock pins:
+/DCM_5/DCM_ctrl_3/aclk
+/DCM_5/DCM_ctrl_3/clk200
+
+CRITICAL WARNING: [BD 41-1761] Reset pin '/DCM_5/DCM_ctrl_4/aresetn' is found to be associated with multiple clock pins, which are not compatible w.r.t frequency, phase and clock-domain. This may prevent design from functioning correctly. Please ensure same reset pin is either not associated with different clock pins or all associated clock pins are driven by same or compatible clock source(s). List of associated clock pins:
+/DCM_5/DCM_ctrl_4/aclk
+/DCM_5/DCM_ctrl_4/clk200
+
+CRITICAL WARNING: [BD 41-1761] Reset pin '/SM_20/SM_alg_server_0/aresetn' is found to be associated with multiple clock pins, which are not compatible w.r.t frequency, phase and clock-domain. This may prevent design from functioning correctly. Please ensure same reset pin is either not associated with different clock pins or all associated clock pins are driven by same or compatible clock source(s). List of associated clock pins:
+/SM_20/SM_alg_server_0/aclk
+/SM_20/SM_alg_server_0/clk200
+
+CRITICAL WARNING: [BD 41-1761] Reset pin '/SM_20/SM_alg_server_1/aresetn' is found to be associated with multiple clock pins, which are not compatible w.r.t frequency, phase and clock-domain. This may prevent design from functioning correctly. Please ensure same reset pin is either not associated with different clock pins or all associated clock pins are driven by same or compatible clock source(s). List of associated clock pins:
+/SM_20/SM_alg_server_1/aclk
+/SM_20/SM_alg_server_1/clk200
+
+WARNING: [BD 41-1629] Slave segment </axi_gpio_0/S_AXI/Reg> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </axi_uartlite_0/S_AXI/Reg> is excluded from all addressing paths.
+WARNING: [BD 41-927] Following properties on pin /util_idelay_ctrl_0/ref_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /AXI4_Stream_Inverter_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_0/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_0/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_1/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_1/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_2/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_2/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_3/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_3/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_4/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /DCM_5/DCM_ctrl_4/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/RT_timebase_0/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_0/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_10/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_11/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_12/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_13/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_14/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_15/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_16/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_17/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_18/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_19/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_1/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_20/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_21/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_22/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_23/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_24/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_25/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_26/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_27/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_28/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_29/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_2/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_30/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_31/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_32/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_33/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_34/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_35/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_36/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_37/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_38/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_39/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_3/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_40/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_41/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_42/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_43/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_44/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_45/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_46/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_47/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_48/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_49/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_4/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_5/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_6/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_7/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_8/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /PHS_50/PHS_ctrl_9/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_alg_server_0/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_alg_server_0/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_alg_server_1/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_alg_server_1/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_0/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_0/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_10/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_10/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_11/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_11/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_12/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_12/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_13/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_13/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_14/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_14/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_15/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_15/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_16/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_16/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_17/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_17/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_18/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_18/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_19/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_19/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_1/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_1/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_2/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_2/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_3/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_3/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_4/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_4/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_5/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_5/clk200 have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+WARNING: [BD 41-927] Following properties on pin /SM_20/SM_ctrl_6/aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=S7_util_ds_buf_0_0_IBUF_OUT 
+INFO: [Common 17-14] Message 'BD 41-927' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Wrote  : <D:\MW\RTT\VVD\S\S_7-Working\S_7\S7\S7.srcs\sources_1\bd\S7\S7.bd> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/microblaze_0_axi_periph/xbar/s_axi_awprot'(3) to net 's00_couplers_to_xbar_AWPROT'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/microblaze_0_axi_periph/xbar/s_axi_arprot'(3) to net 's00_couplers_to_xbar_ARPROT'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_interconnect_0/m00_couplers/m00_data_fifo/m_axi_bid'(1) to net 'm00_data_fifo_to_m00_couplers_BID'(12) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_interconnect_0/m00_couplers/m00_data_fifo/m_axi_rid'(1) to net 'm00_data_fifo_to_m00_couplers_RID'(12) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_c2c_s/s_axi_awid'(12) to net 'axi_interconnect_0_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_c2c_s/s_axi_arid'(12) to net 'axi_interconnect_0_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+VHDL Output written to : D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/microblaze_0_axi_periph/xbar/s_axi_awprot'(3) to net 's00_couplers_to_xbar_AWPROT'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/microblaze_0_axi_periph/xbar/s_axi_arprot'(3) to net 's00_couplers_to_xbar_ARPROT'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_interconnect_0/m00_couplers/m00_data_fifo/m_axi_bid'(1) to net 'm00_data_fifo_to_m00_couplers_BID'(12) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_interconnect_0/m00_couplers/m00_data_fifo/m_axi_rid'(1) to net 'm00_data_fifo_to_m00_couplers_RID'(12) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_c2c_s/s_axi_awid'(12) to net 'axi_interconnect_0_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_c2c_s/s_axi_arid'(12) to net 'axi_interconnect_0_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+VHDL Output written to : D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/sim/S7.vhd
+VHDL Output written to : D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/hdl/S7_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DCM_5/DCM_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DCM_5/DCM_ctrl_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DCM_5/DCM_ctrl_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DCM_5/DCM_ctrl_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DCM_5/DCM_ctrl_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DCM_5/DCM_regs_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_12 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_13 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_14 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_15 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_16 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_17 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_18 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_19 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_23 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_24 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_25 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_26 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_27 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_28 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_29 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_30 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_32 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_33 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_34 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_35 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_36 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_37 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_38 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_39 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_40 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_41 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_42 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_43 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_44 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_45 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_46 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_47 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_48 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_ctrl_49 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/PHS_regs_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PHS_50/RT_timebase_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_12 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_13 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_14 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_15 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_16 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_17 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_18 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_ctrl_19 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SM_20/SM_regs_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_ctrl_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SOL_10/SOL_regs_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_c2c_s .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ibufgds_200 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bufg_200 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_idelay_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [Common 17-14] Message 'BD 41-1029' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_m00_data_fifo_0/S7_m00_data_fifo_0_ooc.xdc'
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'S_AXI.AWUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'S_AXI.WUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'S_AXI.BUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'S_AXI.ARUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'S_AXI.RUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'M_AXI.AWUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'M_AXI.WUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'M_AXI.BUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'M_AXI.ARUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5378] Port width mismatch for bus parameter 'M_AXI.RUSER_WIDTH'. Logical port width '0' and physical port width '1' do not match.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+Exporting to file D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/hw_handoff/S7.hwh
+Generated Block Design Tcl file D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/hw_handoff/S7_bd.tcl
+Generated Hardware Definition File D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP S7_m00_data_fifo_0, cache-ID = 6a88ed72a961d90b; cache size = 467.581 MB.
+[Tue May  4 10:14:13 2021] Launched synth_1...
+Run output will be captured here: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/synth_1/runme.log
+[Tue May  4 10:14:13 2021] Launched impl_1...
+Run output will be captured here: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1350.008 ; gain = 25.363
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de631101
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+current_hw_device [get_hw_devices xc7s100_0]
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7s100_0 and the probes file(s) D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx.
+The device design has 2 ILA core(s) and 0 VIO core(s). 1 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+create_hw_cfgmem -hw_device [get_hw_devices xc7s100_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+program_hw_devices [get_hw_devices xc7s100_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2534.512 ; gain = 1.523
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s100_0] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object Interface_(i1:s0)_(axis_data_fifo_0_M_AXIS) was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tdata was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tkeep was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tlast was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tready was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tvalid was not found in the design.
+WARNING: Simulation object Interface_(i1:s1)_(AXI4_Stream_Inverter_0_M00_AXIS) was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_1_axis_tdata was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_1_axis_tlast was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_1_axis_tready was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_1_axis_tvalid was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_2_axis_tdata was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_3_axis_tdata was not found in the design.
+WARNING: Simulation object T_Channel_(i1:s0)_(axis_data_fifo_0_M_AXIS) was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tvalid was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tready was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tlast was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tdata was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_0_axis_tkeep was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_1_axis_tvalid was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_1_axis_tready was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_1_axis_tlast was not found in the design.
+WARNING: Simulation object S7_i/system_ila_0/U0/net_slot_1_axis_tdata was not found in the design.
+open_bd_design {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/S7.bd}
+set_property PROBES.FILE {} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s100_0]
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+program_hw_devices [get_hw_devices xc7s100_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2553.055 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-1347] Unable to find Debug Probes file []. Please update hw_device property [PROBES.FILE]
+ Update of hw_probe objects, will be skipped.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7s100_0 and the probes file(s) .
+The device design has 1 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+save_wave_config {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 9
+[Tue May  4 10:27:10 2021] Launched synth_1...
+Run output will be captured here: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/synth_1/runme.log
+[Tue May  4 10:27:10 2021] Launched impl_1...
+Run output will be captured here: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/runme.log
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de631101
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+current_hw_device [get_hw_devices xc7s100_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+create_hw_cfgmem -hw_device [get_hw_devices xc7s100_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s100_0]
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+program_hw_devices [get_hw_devices xc7s100_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2563.402 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-1434] Device xc7s100 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/000015de631101
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de631101
+INFO: [Labtools 27-1435] Device xc7s100 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s100_0]
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+program_hw_devices [get_hw_devices xc7s100_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2564.492 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-1434] Device xc7s100 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+write_cfgmem  -format mcs -size 32 -interface SPIx4 -loadbit {up 0x00000000 "D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit" } -checksum -force -file "D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/MyImage/S7.mcs"
+Command: write_cfgmem -format mcs -size 32 -interface SPIx4 -loadbit {up 0x00000000 "D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit" } -checksum -force -file D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/MyImage/S7.mcs
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit
+Writing file D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/MyImage/S7.mcs
+Writing log file D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/MyImage/S7.prm
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+Checksum           0xD4FF8CD9
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)                                                             Checksum
+0x00000000    0x002D1BDF    May  4 10:34:51 2021    D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit    0x03EE50F9
+File Checksum Total                                                                                                     0x03EE50F9
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+set_property PROGRAM.FILES [list "D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/MyImage/S7.mcs" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+set_property PROGRAM.PRM_FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/MyImage/S7.prm} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+set_property PROGRAM.BLANK_CHECK  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+set_property PROGRAM.CHECKSUM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+startgroup 
+create_hw_bitstream -hw_device [lindex [get_hw_devices xc7s100_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7s100_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7s100_0] 0]; refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0];
+INFO: [Labtools 27-3164] End of startup status: HIGH
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 1 SPI core(s).
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7s100_0] 0]]
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 19   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Blank Check Operation...
+Blank Check Operation successful. The part is blank.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+Performing Checksum Operation...
+ Addr1      Addr2       Checksum
+ 00000000   002D1BDF    03EE50F9
+ Device Checksum Total  03EE50F9
+Checksum Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:04:57 . Memory (MB): peak = 2715.000 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/000015de631101
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de631101
+INFO: [Labtools 27-1435] Device xc7s100 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  4 10:50:46 2021...

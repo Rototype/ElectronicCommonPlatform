@@ -1,0 +1,23 @@
+10:54:58 **** Auto Build of configuration Debug for project CPU1_inverter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CPU1_inverter_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: CPU1_inverter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CPU1_inverter_bsp/ps7_cortexa9_1/lib -o "CPU1_inverter.elf"  ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_zynq.o ./src/sfp.o ./src/si5324.o ./src/tcp_perf_client.o ./src/tcp_perf_server.o ./src/xscugic_custom.o ./src/xscugic_hw_custom.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: CPU1_inverter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size CPU1_inverter.elf  |tee "CPU1_inverter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 155092	   3536	104896800	105055428	64304c4	CPU1_inverter.elf
+'Finished building: CPU1_inverter.elf.size'
+' '
+
+10:55:00 Build Finished (took 1s.328ms)
+

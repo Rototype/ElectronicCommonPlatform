@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<item value="D:\MW\RTT\VVD\Z\Z1\RTT_RLB_BASE\RTT_PRO.sdk\zynq_fsbl\Debug" key="bootgen_files_selection"/>
-	<item value="D:\MW\RTT\VVD\Z\Z1\RTT_RLB_BASE\RTT_PRO.runs\impl_1" key="debug_files_selection"/>
-	<item value="D:\MW\RTT\VVD\Z\Z1\RTT_RLB_BASE\RTT_PRO.sdk\hello\bootimage" key="zynq_flash_files_selection"/>
-	<item value="D:\MW\RTT\VVD\Z\Z1\RTT_RLB_BASE\RTT_PRO.sdk\hello\bootimage" key="last_stored_selection"/>
-</section>

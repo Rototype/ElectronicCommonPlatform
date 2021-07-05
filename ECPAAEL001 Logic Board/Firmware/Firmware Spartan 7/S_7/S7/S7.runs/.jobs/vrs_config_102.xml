@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="S7_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/MW/RTT/VVD/S/S_4/S7/S7.runs/S7_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="S7_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/MW/RTT/VVD/S/S_4/S7/S7.runs/S7_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="S7_xbar_2_synth_1" LaunchDir="D:/MW/RTT/VVD/S/S_4/S7/S7.runs/S7_xbar_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/MW/RTT/VVD/S/S_4/S7/S7.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="S7_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="S7_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="S7_xbar_2_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

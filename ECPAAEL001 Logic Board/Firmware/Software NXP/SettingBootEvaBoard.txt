@@ -2,25 +2,14 @@ Booting from SD on i.MX 8MQuad EVK
 
 ==================================
 SWitch    D1  D2  D3  D4
-SW801 :  1    1     0     0
-SW802 :  1  0   (Internal boot mode)
+SW801 :  1    1   0   0
+SW802 :  1    0   (Internal boot mode)
 
  
 
 Booting from eMMC on i.MX 8MQuad EVK
 ====================================
 SWitch    D1  D2  D3  D4
-SW801 :  0     0    1     0
+SW801 :   0   0   1   0
 
-SW2 and SW3 sulla nostra scheda
-
-ho trovato il modo di settare il MAC ADDRESS:
-
-1) per la linea principale eth0 è sufficiente dare i comandi da uboot (interrompendo l'autoboot dal terminale di servizio):
-
-u-boot>= setenv ethaddr 10:20:30:40:50:60
-u-boot>= saveenv
-
-2) per la linea secondaria i210 eth1 con il comando di inizializzazione del modulo si assegna anche il MAC: (per esempio 9c:53:cd:03:8e:3c)
-
-./EepromAccessTool -NIC=1 -F=I210NIC1.otp -MAC=9c53cd038e3c
+SW2 and SW3 on ECP board

@@ -1,4 +1,0 @@
-Scaricare Flutter SDK da: https://flutter.dev/docs/get-started/install/windows
-Scaricare Visual studio code da: https://code.visualstudio.com/
-Scaricare le estensioni Dart e Flutter per VS code da: https://dartcode.org/
-Istruzioni per la build web: https://flutter.dev/docs/get-started/web

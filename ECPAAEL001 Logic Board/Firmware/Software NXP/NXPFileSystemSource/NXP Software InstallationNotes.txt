@@ -1,0 +1,15 @@
+Copy to SD card and assign permissions to execute to files in _rootfs
+
+Copy file fsl-imx8mq-evk.dtb to SD card root
+
+DTB can be generated on a Linux PC (not on the board after installing Device-Tree-Compiler
+from DTS (that allows editing):
+
+sudo apt-get install device-tree-compiler
+
+DTB to DTS:
+dtc -I dtb -O dts -f devicetree.dtb -o devicetree.dts
+
+DTS to DTB
+dtc -I dts -O dtb -f devicetree.dts -o devicetree.dtb
+

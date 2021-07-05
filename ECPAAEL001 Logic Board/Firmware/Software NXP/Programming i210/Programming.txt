@@ -1,0 +1,6 @@
+Command to program I210 (from NXP Linux)
+./EepromAccessTool -NIC=1 -F=I210NIC1.otp -MAC=9c53cd038e32
+
+
+
+

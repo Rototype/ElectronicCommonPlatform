@@ -1,0 +1,14 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+Checksum           0xD65DABDA
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)                                                 Checksum
+0x00000000    0x002CBE93    Jun 26 15:52:46 2021    D:/MW/RTT/VVD/S/S_7/S7/S7.runs/impl_1/S7_wrapper.bit    0x03EF8146
+File Checksum Total                                                                                         0x03EF8146

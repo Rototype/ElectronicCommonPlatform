@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DDR_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DDR_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="341100000fs"></ZoomStartTime>
+      <ZoomEndTime time="1255100001fs"></ZoomEndTime>
+      <Cursor1Time time="680100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="185"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/DDR_TB/clk100" type="logic">
+      <obj_property name="ElementShortName">clk100</obj_property>
+      <obj_property name="ObjectShortName">clk100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/din_int" type="array">
+      <obj_property name="ElementShortName">din_int[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din_int[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/clk100_frq_MHz" type="other">
+      <obj_property name="ElementShortName">clk100_frq_MHz</obj_property>
+      <obj_property name="ObjectShortName">clk100_frq_MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/clk100_frequency" type="other">
+      <obj_property name="ElementShortName">clk100_frequency</obj_property>
+      <obj_property name="ObjectShortName">clk100_frequency</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/clk100_period" type="other">
+      <obj_property name="ElementShortName">clk100_period</obj_property>
+      <obj_property name="ObjectShortName">clk100_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/DUT/data_ddr_obuf" type="array">
+      <obj_property name="ElementShortName">data_ddr_obuf[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ddr_obuf[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/DUT/clk_obufds" type="logic">
+      <obj_property name="ElementShortName">clk_obufds</obj_property>
+      <obj_property name="ObjectShortName">clk_obufds</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/DUT/clk_ibufds" type="logic">
+      <obj_property name="ElementShortName">clk_ibufds</obj_property>
+      <obj_property name="ObjectShortName">clk_ibufds</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/DUT/data_ddr_ibuf" type="array">
+      <obj_property name="ElementShortName">data_ddr_ibuf[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ddr_ibuf[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/DUT/clk_z" type="logic">
+      <obj_property name="ElementShortName">clk_z</obj_property>
+      <obj_property name="ObjectShortName">clk_z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/DUT/rst_z" type="logic">
+      <obj_property name="ElementShortName">rst_z</obj_property>
+      <obj_property name="ObjectShortName">rst_z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDR_TB/DUT/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+</wave_config>

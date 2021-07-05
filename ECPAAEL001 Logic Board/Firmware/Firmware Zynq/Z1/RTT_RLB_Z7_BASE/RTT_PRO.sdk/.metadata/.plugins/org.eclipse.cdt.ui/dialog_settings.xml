@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="m" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
+	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
+		<item value="950" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="608" key="DIALOG_HEIGHT"/>
+		<item value="706" key="DIALOG_X_ORIGIN"/>
+		<item value="141" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item value="180" key="size.height"/>
+		<item value="512" key="size.width"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item value="true" key="caseSensitive"/>
+		<item value="227191" key="searchFlags"/>
+		<list key="previousPatterns">
+			<item value="20210625"/>
+			<item value="TASK_SM_AccelerationChange"/>
+			<item value="aborted"/>
+			<item value="DHCP"/>
+			<item value="dhcp"/>
+			<item value="error:"/>
+			<item value="IicPsFindEeprom"/>
+			<item value="xTaskCreate"/>
+			<item value="PRINT_DEBUG"/>
+			<item value="TASK_PHS_xSemaphoreInterrupt"/>
+			<item value="xtaskcreate"/>
+			<item value="xQueueCreate"/>
+			<item value="HWCC_MAX_SIZE"/>
+			<item value="TASK_HWCC_xQueueCommands"/>
+			<item value="TASK_DCM_xQueueCommands"/>
+			<item value="PointerIndex"/>
+			<item value="LENGTH_SIZE"/>
+			<item value="UNFINISHED"/>
+			<item value="TASK"/>
+			<item value="OPTIONS"/>
+			<item value="COMMAND"/>
+			<item value="TASK_HWCC_ReadFromEeeprom"/>
+			<item value="vTaskDELAY"/>
+			<item value="platform_setup_interrupts"/>
+			<item value="platform_setup_DMA"/>
+			<item value="QUEUE_LENGTH"/>
+			<item value="TASK_SOL_xQueueCommands"/>
+			<item value="TASK_SPI_TX_WAIT"/>
+			<item value="TASK_SPI_RX_WAIT"/>
+			<item value="vTaskDelay"/>
+			<item value="delay"/>
+			<item value="xil_printf"/>
+			<item value="todo"/>
+			<item value="while"/>
+			<item value="usleep"/>
+		</list>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+</section>

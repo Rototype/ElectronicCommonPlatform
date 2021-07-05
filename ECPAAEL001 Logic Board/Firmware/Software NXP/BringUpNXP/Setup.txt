@@ -1,0 +1,2 @@
+Primo allegato un PDF di NXP: "MSCALE_DDR_Tool_User_Guide.pdf". Come vedrai siamo arrivati con successo fino al capitolo 4.2, ed abbiamo generato i files .C che servono a ricompilare l' U-boot.
+Seconda allegato, i file .C. Ho verificato che siano indipendenti dalla istanza di scheda (sono identici per la 1, la 3, la 4) che si e' usata per realizzare lo stress test delle DDR4, per cui sono "univoci"

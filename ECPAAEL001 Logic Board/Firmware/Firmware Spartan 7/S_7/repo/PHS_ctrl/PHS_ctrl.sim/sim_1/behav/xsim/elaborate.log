@@ -1,0 +1,22 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Eda_Tools/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto f1157b4388ef4776bcc7c122ebf6d5a5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot PHS_ctrl_TB_behav xil_defaultlib.PHS_ctrl_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.math_real
+Compiling architecture bhe of entity xil_defaultlib.PHS_ctrl_TESTER [phs_ctrl_tester_default]
+Compiling architecture rtl of entity xil_defaultlib.PHS_ctrl_real [phs_ctrl_real_default]
+Compiling architecture rtl of entity xil_defaultlib.PHS_ctrl [phs_ctrl_default]
+Compiling architecture bhe of entity xil_defaultlib.phs_ctrl_tb
+Built simulation snapshot PHS_ctrl_TB_behav

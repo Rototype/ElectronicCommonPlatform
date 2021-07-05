@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 30 10:45:55 2021
+# Process ID: 13564
+# Current directory: D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17188 D:\MW\RTT\VVD\S\S_7-Pastrocchi\S_7\S7\S7.xpr
+# Log file: D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/vivado.log
+# Journal file: D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Eda_Tools/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1010.957 ; gain = 358.129
+open_hw
+update_compile_order -fileset sources_1
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de631101
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+current_hw_device [get_hw_devices xc7s100_0]
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+create_hw_cfgmem -hw_device [get_hw_devices xc7s100_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+refresh_hw_device: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2225.676 ; gain = 36.355
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s100_0] -filter {CELL_NAME=~"S7_i/system_ila_0/U0/ila_lib"}]]
+Processed interface axi_dma_1_M_AXI_MM2S_ila1_slot0
+Processed interface axi_dma_1_M_AXI_S2MM_ila1_slot1
+Processed interface axi_interconnect_0_M00_AXI_ila1_slot2
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot3
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s100_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+program_hw_devices [get_hw_devices xc7s100_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2252.742 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).

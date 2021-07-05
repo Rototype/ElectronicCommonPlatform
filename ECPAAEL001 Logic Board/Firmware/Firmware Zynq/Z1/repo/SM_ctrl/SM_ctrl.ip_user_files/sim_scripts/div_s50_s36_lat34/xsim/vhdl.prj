@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../SM_ctrl.srcs/sources_1/ip/div_s50_s36_lat34/sim/div_s50_s36_lat34.vhd" \
+
+nosort

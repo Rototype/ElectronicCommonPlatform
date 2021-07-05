@@ -1,0 +1,9 @@
+(rc.local) modificato per permettere lancio automatico di script da cartella startup
+(10-setupSPI.sh) script di setup dei canali SPI al boot 
+(20-setgpio.sh) script di setup dei gpio per il controllo dei reset al boot 
+(30-setupIP.sh) script di setup indirizzi IP per interfacce Ethernet esterna (eth0) ed interna (eth1) al boot
+(31-enableETHonUSB.sh) script per abilitare Ethernet su USB al boot, con setup indirizzo IP interfaccia usb0 
+(90-autostart_Comunicator.sh) script di autostart del comunicator su terminale dedicato (tty5) 
+(99-selfcheck.sh) script di checkup corretta inizializzazione al login dell'utente root (con relativo file .profile modificato) 
+(resetFPGA.sh , resetZynq.sh , resetAll.sh) script di reset della Spartan, Zynq e di entrambe sequenzialmente 
+(launch_Comunicator.sh) lancia il Comunicator

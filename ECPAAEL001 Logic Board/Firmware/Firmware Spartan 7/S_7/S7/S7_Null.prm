@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x002C5CF3    Oct 19 11:05:43 2020    D:/MW/RTT/VVD/S/S_3/S7/S7.runs/impl_1/S7_wrapper.bit

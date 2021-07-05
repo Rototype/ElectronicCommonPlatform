@@ -1,0 +1,8 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\MW\RTT\VVD\Z\Z1\RTT_RLB_Z7_BASE\RTT_PRO.sdk\FSBL\Debug\FSBL.elf
+	D:\MW\RTT\VVD\Z\Z1\RTT_RLB_Z7_BASE\RTT_PRO.sdk\system_wrapper_hw_platform_0\system_wrapper.bit
+	D:\MW\RTT\VVD\Z\Z1\RTT_RLB_Z7_BASE\RTT_PRO.sdk\CPU0_freertos\Debug\CPU0_freertos.elf
+	D:\MW\RTT\VVD\Z\Z1\RTT_RLB_Z7_BASE\RTT_PRO.sdk\CPU1_inverter\Debug\CPU1_inverter.elf
+}

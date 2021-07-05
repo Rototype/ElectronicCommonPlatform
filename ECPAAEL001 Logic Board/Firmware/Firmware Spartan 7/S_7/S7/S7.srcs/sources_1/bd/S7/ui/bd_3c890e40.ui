@@ -1,0 +1,38 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DCM0 -pg 1 -lvl 3 -x 620 -y 90 -defaultsOSRD
+preplace port DCM1 -pg 1 -lvl 3 -x 620 -y 250 -defaultsOSRD
+preplace port DCM2 -pg 1 -lvl 3 -x 620 -y 570 -defaultsOSRD
+preplace port DCM3 -pg 1 -lvl 3 -x 620 -y 410 -defaultsOSRD
+preplace port DCM4 -pg 1 -lvl 3 -x 620 -y 730 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -50 -y 340 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -50 -y 360 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -50 -y 380 -defaultsOSRD
+preplace port clk200 -pg 1 -lvl 0 -x -50 -y 480 -defaultsOSRD
+preplace inst DCM_regs_0 -pg 1 -lvl 1 -x 150 -y 440 -defaultsOSRD
+preplace inst DCM_ctrl_0 -pg 1 -lvl 2 -x 480 -y 90 -defaultsOSRD
+preplace inst DCM_ctrl_1 -pg 1 -lvl 2 -x 480 -y 250 -defaultsOSRD
+preplace inst DCM_ctrl_2 -pg 1 -lvl 2 -x 480 -y 570 -defaultsOSRD
+preplace inst DCM_ctrl_3 -pg 1 -lvl 2 -x 480 -y 410 -defaultsOSRD
+preplace inst DCM_ctrl_4 -pg 1 -lvl 2 -x 480 -y 730 -defaultsOSRD
+preplace netloc s00_axi_aclk_2_1 1 0 2 -10 260 330
+preplace netloc s00_axi_aresetn_2_1 1 0 2 -30 250 340
+preplace netloc clk200_1 1 0 2 -20J 620 350
+preplace netloc DCM_regs_0_DCM4 1 1 1 320 560n
+preplace netloc DCM_ctrl_2_DCM_IO 1 2 1 NJ 570
+preplace netloc DCM_ctrl_4_DCM_IO 1 2 1 NJ 730
+preplace netloc DCM_regs_0_DCM0 1 1 1 310 60n
+preplace netloc Conn1 1 0 1 -20J 340n
+preplace netloc DCM_regs_0_DCM1 1 1 1 320 220n
+preplace netloc DCM_regs_0_DCM3 1 1 1 310 380n
+preplace netloc DCM_ctrl_3_DCM_IO 1 2 1 NJ 410
+preplace netloc DCM_ctrl_0_DCM_IO 1 2 1 NJ 90
+preplace netloc DCM_regs_0_DCM2 1 1 1 320 520n
+preplace netloc DCM_ctrl_1_DCM_IO 1 2 1 NJ 250
+levelinfo -pg 1 -50 150 480 620
+pagesize -pg 1 -db -bbox -sgen -210 0 710 820
+"
+}
+0

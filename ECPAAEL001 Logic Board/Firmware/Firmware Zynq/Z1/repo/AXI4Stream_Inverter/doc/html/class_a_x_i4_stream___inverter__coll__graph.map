@@ -1,0 +1,4 @@
+<map id="AXI4Stream_Inverter" name="AXI4Stream_Inverter">
+<area shape="rect" id="node1" title="The entity of this module can be described by the following images:" alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node2" href="$class_inverter.html" title="The output of this module contains: 4 ports of inverted_tdata: inverted_tdata_MSB,..." alt="" coords="43,5,106,32"/>
+</map>

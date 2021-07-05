@@ -1,0 +1,234 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May  4 10:01:15 2021
+# Process ID: 3196
+# Current directory: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8304 D:\MW\RTT\VVD\S\S_7-Working\S_7\S7\S7.xpr
+# Log file: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/vivado.log
+# Journal file: D:/MW/RTT/VVD/S/S_7-Working/S_7/S7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.xpr
+INFO: [Project 1-313] Project file moved from 'D:/MW/RTT/VVD/S/S_7-Pastrocchi/S_7/S7' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MW/RTT/VVD/S/S_7-Working/S_7/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Eda_Tools/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 946.633 ; gain = 298.598
+update_compile_order -fileset sources_1
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1167.270 ; gain = 0.000
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de631101
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+current_hw_device [get_hw_devices xc7s100_0]
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+create_hw_cfgmem -hw_device [get_hw_devices xc7s100_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s100_0] -filter {CELL_NAME=~"S7_i/system_ila_0/U0/ila_lib"}]]
+Processed interface axis_data_fifo_0_M_AXIS_ila1_slot0
+Processed interface AXI4_Stream_Inverter_0_M00_AXIS_ila1_slot1
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s100_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+program_hw_devices [get_hw_devices xc7s100_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2301.070 ; gain = 14.742
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+Processing Interface axis_data_fifo_0_M_AXIS_ila1_slot0
+Processing Interface AXI4_Stream_Inverter_0_M00_AXIS_ila1_slot1
+refresh_hw_device: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2301.891 ; gain = 0.820
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/000015de631101
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de631101
+INFO: [Labtools 27-1435] Device xc7s100 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+program_hw_devices [get_hw_devices xc7s100_0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2318.312 ; gain = 0.000
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+close_hw
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/000015de631101]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de631101
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+current_hw_device [get_hw_devices xc7s100_0]
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-1435] Device xc7s100 (JTAG device index = 0) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [get_hw_devices xc7s100_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property FULL_PROBES.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.ltx} [get_hw_devices xc7s100_0]
+set_property PROGRAM.FILE {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.runs/impl_1/S7_wrapper.bit} [get_hw_devices xc7s100_0]
+program_hw_devices [get_hw_devices xc7s100_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2320.152 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s100_0] 0]
+INFO: [Labtools 27-2302] Device xc7s100 (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s100_0] -filter {CELL_NAME=~"S7_i/system_ila_0/U0/ila_lib"}]]
+Processed interface axis_data_fifo_0_M_AXIS_ila1_slot0
+Processed interface AXI4_Stream_Inverter_0_M00_AXIS_ila1_slot1
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s100_0] -filter {CELL_NAME=~"u_ila_0"}]]
+open_bd_design {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/S7.bd}
+Adding component instance block -- xilinx.com:user:DCM_regs:1.0 - DCM_regs_0
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_0
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_1
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_2
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_3
+Adding component instance block -- xilinx.com:user:DCM_ctrl:1.0 - DCM_ctrl_4
+Adding component instance block -- xilinx.com:user:RT_timebase:1.0 - RT_timebase_0
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_0
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_10
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_11
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_12
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_13
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_14
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_15
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_16
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_17
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_18
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_19
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_1
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_20
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_21
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_22
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_23
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_24
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_25
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_26
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_27
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_28
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_29
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_2
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_30
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_31
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_32
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_33
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_34
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_35
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_36
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_37
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_38
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_39
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_3
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_40
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_41
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_42
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_43
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_44
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_45
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_46
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_47
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_48
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_49
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_4
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_5
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_6
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_7
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_8
+Adding component instance block -- xilinx.com:user:PHS_ctrl:1.0 - PHS_ctrl_9
+Adding component instance block -- xilinx.com:user:PHS_regs:1.0 - PHS_regs_0
+Adding component instance block -- xilinx.com:user:SM_alg_server:1.0 - SM_alg_server_0
+Adding component instance block -- xilinx.com:user:SM_alg_server:1.0 - SM_alg_server_1
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_0
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_10
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_11
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_12
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_13
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_14
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_15
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_16
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_17
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_18
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_19
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_1
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_2
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_3
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_4
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_5
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_6
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_7
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_8
+Adding component instance block -- xilinx.com:user:SM_ctrl:1.0 - SM_ctrl_9
+Adding component instance block -- xilinx.com:user:SM_regs:1.0 - SM_regs_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:util_idelay_ctrl:1.0 - util_idelay_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_1
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - ibufgds_200
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - bufg_200
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_0
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_1
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_2
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_3
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_4
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_5
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_6
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_7
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_8
+Adding component instance block -- xilinx.com:user:SOL_ctrl:1.0 - SOL_ctrl_9
+Adding component instance block -- xilinx.com:user:SOL_regs:1.0 - SOL_regs_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - inv_rst
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_1
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - m00_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_chip2chip:5.0 - axi_c2c_s
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- MindWay:user:AXI4_Stream_Inverter:1.0 - AXI4_Stream_Inverter_0
+Excluding </DCM_5/DCM_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_MM2S>
+Excluding </PHS_50/PHS_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_MM2S>
+Excluding </SM_20/SM_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_MM2S>
+Excluding </SOL_10/SOL_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_MM2S>
+Excluding </axi_dma_1/S_AXI_LITE/Reg> from </axi_dma_1/Data_MM2S>
+Excluding </axi_gpio_0/S_AXI/Reg> from </axi_dma_1/Data_MM2S>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_dma_1/Data_MM2S>
+Excluding </DCM_5/DCM_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_S2MM>
+Excluding </PHS_50/PHS_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_S2MM>
+Excluding </SM_20/SM_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_S2MM>
+Excluding </SOL_10/SOL_regs_0/S00_AXI/S00_AXI_reg> from </axi_dma_1/Data_S2MM>
+Excluding </axi_dma_1/S_AXI_LITE/Reg> from </axi_dma_1/Data_S2MM>
+Excluding </axi_gpio_0/S_AXI/Reg> from </axi_dma_1/Data_S2MM>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_dma_1/Data_S2MM>
+Excluding </axi_gpio_0/S_AXI/Reg> from </axi_c2c_s/MAXI-Lite>
+Excluding </axi_uartlite_0/S_AXI/Reg> from </axi_c2c_s/MAXI-Lite>
+Successfully read diagram <S7> from BD file <D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.srcs/sources_1/bd/S7/S7.bd>
+save_wave_config {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {D:/MW/RTT/VVD/S/S_7-Working/S_7/S7/S7.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  4 10:10:29 2021...

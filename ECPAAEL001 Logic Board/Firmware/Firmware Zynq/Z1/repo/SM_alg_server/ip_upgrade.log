@@ -1,0 +1,163 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3_AR72013 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 15 06:04:53 2020
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SM_status_fifo'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SM_status_fifo (xilinx.com:ip:fifo_generator:13.2 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3_AR72013 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 15 06:04:44 2020
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SM_req_fifo'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SM_req_fifo (xilinx.com:ip:fifo_generator:13.2 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3_AR72013 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 15 06:04:30 2020
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mult_u22_u22'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mult_u22_u22 (xilinx.com:ip:mult_gen:12.0 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3_AR72013 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 15 06:04:24 2020
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mult_u22_fclk'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mult_u22_fclk (xilinx.com:ip:mult_gen:12.0 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3_AR72013 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 15 06:04:17 2020
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mult_s36_u43_lat7'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mult_s36_u43_lat7 (xilinx.com:ip:mult_gen:12.0 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3_AR72013 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 15 06:04:07 2020
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mult_s22_10995'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mult_s22_10995 (xilinx.com:ip:mult_gen:12.0 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3_AR72013 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 15 06:03:56 2020
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'div_s50_s36_lat34'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of div_s50_s36_lat34 (xilinx.com:ip:div_gen:5.1 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3_AR72013 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Apr 15 06:03:48 2020
+| Host         : LAPTOP-D823LPN1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'add_s36_fclk_lat3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of add_s36_fclk_lat3 (xilinx.com:ip:c_addsub:12.0 (Rev. 12)) to Vivado generation flows.
+

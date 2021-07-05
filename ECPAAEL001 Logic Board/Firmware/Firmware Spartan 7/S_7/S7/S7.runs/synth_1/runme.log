@@ -1,0 +1,1337 @@
+
+*** Running vivado
+    with args -log S7_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source S7_wrapper.tcl
+
+
+****** Vivado v2019.1.3 (64-bit)
+  **** SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+  **** IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source S7_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MW/RTT/VVD/S/S_7/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Eda_Tools/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top S7_wrapper -part xc7s100fgga676-1 -keep_equivalent_registers -no_lc
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s100'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s100'
+INFO: [Device 21-403] Loading part xc7s100fgga676-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 35504 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 871.332 ; gain = 179.035
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'S7_wrapper' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/hdl/S7_wrapper.vhd:285]
+INFO: [Synth 8-3491] module 'S7' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:11771' bound to instance 'S7_i' of component 'S7' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/hdl/S7_wrapper.vhd:557]
+INFO: [Synth 8-638] synthesizing module 'S7' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:12046]
+INFO: [Synth 8-3491] module 'S7_AXI4_Stream_Inverter_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_AXI4_Stream_Inverter_0_0_stub.vhdl:5' bound to instance 'AXI4_Stream_Inverter_0' of component 'S7_AXI4_Stream_Inverter_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:13417]
+INFO: [Synth 8-638] synthesizing module 'S7_AXI4_Stream_Inverter_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_AXI4_Stream_Inverter_0_0_stub.vhdl:23]
+INFO: [Synth 8-638] synthesizing module 'DCM_5_imp_J00IJ8' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:56]
+INFO: [Synth 8-3491] module 'S7_DCM_ctrl_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_0_0_stub.vhdl:5' bound to instance 'DCM_ctrl_0' of component 'S7_DCM_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:327]
+INFO: [Synth 8-638] synthesizing module 'S7_DCM_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_0_0_stub.vhdl:25]
+INFO: [Synth 8-3491] module 'S7_DCM_ctrl_1_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_1_0_stub.vhdl:5' bound to instance 'DCM_ctrl_1' of component 'S7_DCM_ctrl_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:344]
+INFO: [Synth 8-638] synthesizing module 'S7_DCM_ctrl_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_1_0_stub.vhdl:25]
+INFO: [Synth 8-3491] module 'S7_DCM_ctrl_2_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_2_0_stub.vhdl:5' bound to instance 'DCM_ctrl_2' of component 'S7_DCM_ctrl_2_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:361]
+INFO: [Synth 8-638] synthesizing module 'S7_DCM_ctrl_2_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_2_0_stub.vhdl:25]
+INFO: [Synth 8-3491] module 'S7_DCM_ctrl_3_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_3_0_stub.vhdl:5' bound to instance 'DCM_ctrl_3' of component 'S7_DCM_ctrl_3_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:378]
+INFO: [Synth 8-638] synthesizing module 'S7_DCM_ctrl_3_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_3_0_stub.vhdl:25]
+INFO: [Synth 8-3491] module 'S7_DCM_ctrl_4_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_4_0_stub.vhdl:5' bound to instance 'DCM_ctrl_4' of component 'S7_DCM_ctrl_4_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:395]
+INFO: [Synth 8-638] synthesizing module 'S7_DCM_ctrl_4_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_ctrl_4_0_stub.vhdl:25]
+INFO: [Synth 8-3491] module 'S7_DCM_regs_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_regs_0_0_stub.vhdl:5' bound to instance 'DCM_regs_0' of component 'S7_DCM_regs_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:412]
+INFO: [Synth 8-638] synthesizing module 'S7_DCM_regs_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_DCM_regs_0_0_stub.vhdl:72]
+INFO: [Synth 8-256] done synthesizing module 'DCM_5_imp_J00IJ8' (1#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'PHS_50_imp_RL92HO' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:616]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_0_0_stub.vhdl:5' bound to instance 'PHS_ctrl_0' of component 'S7_PHS_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2818]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_0_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_1_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_1_0_stub.vhdl:5' bound to instance 'PHS_ctrl_1' of component 'S7_PHS_ctrl_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2836]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_1_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_10_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_10_0_stub.vhdl:5' bound to instance 'PHS_ctrl_10' of component 'S7_PHS_ctrl_10_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2854]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_10_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_10_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_11_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_11_0_stub.vhdl:5' bound to instance 'PHS_ctrl_11' of component 'S7_PHS_ctrl_11_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2872]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_11_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_11_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_12_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_12_0_stub.vhdl:5' bound to instance 'PHS_ctrl_12' of component 'S7_PHS_ctrl_12_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2890]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_12_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_12_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_13_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_13_0_stub.vhdl:5' bound to instance 'PHS_ctrl_13' of component 'S7_PHS_ctrl_13_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2908]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_13_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_13_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_14_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_14_0_stub.vhdl:5' bound to instance 'PHS_ctrl_14' of component 'S7_PHS_ctrl_14_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2926]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_14_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_14_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_15_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_15_0_stub.vhdl:5' bound to instance 'PHS_ctrl_15' of component 'S7_PHS_ctrl_15_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2944]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_15_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_15_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_16_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_16_0_stub.vhdl:5' bound to instance 'PHS_ctrl_16' of component 'S7_PHS_ctrl_16_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2962]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_16_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_16_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_17_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_17_0_stub.vhdl:5' bound to instance 'PHS_ctrl_17' of component 'S7_PHS_ctrl_17_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2980]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_17_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_17_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_18_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_18_0_stub.vhdl:5' bound to instance 'PHS_ctrl_18' of component 'S7_PHS_ctrl_18_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:2998]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_18_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_18_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_19_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_19_0_stub.vhdl:5' bound to instance 'PHS_ctrl_19' of component 'S7_PHS_ctrl_19_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3016]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_19_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_19_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_2_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_2_0_stub.vhdl:5' bound to instance 'PHS_ctrl_2' of component 'S7_PHS_ctrl_2_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3034]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_2_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_2_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_20_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_20_0_stub.vhdl:5' bound to instance 'PHS_ctrl_20' of component 'S7_PHS_ctrl_20_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3052]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_20_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_20_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_21_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_21_0_stub.vhdl:5' bound to instance 'PHS_ctrl_21' of component 'S7_PHS_ctrl_21_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3070]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_21_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_21_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_22_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_22_0_stub.vhdl:5' bound to instance 'PHS_ctrl_22' of component 'S7_PHS_ctrl_22_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3088]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_22_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_22_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_23_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_23_0_stub.vhdl:5' bound to instance 'PHS_ctrl_23' of component 'S7_PHS_ctrl_23_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3106]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_23_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_23_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_24_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_24_0_stub.vhdl:5' bound to instance 'PHS_ctrl_24' of component 'S7_PHS_ctrl_24_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3124]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_24_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_24_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_25_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_25_0_stub.vhdl:5' bound to instance 'PHS_ctrl_25' of component 'S7_PHS_ctrl_25_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3142]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_25_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_25_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_26_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_26_0_stub.vhdl:5' bound to instance 'PHS_ctrl_26' of component 'S7_PHS_ctrl_26_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3160]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_26_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_26_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_27_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_27_0_stub.vhdl:5' bound to instance 'PHS_ctrl_27' of component 'S7_PHS_ctrl_27_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3178]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_27_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_27_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_28_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_28_0_stub.vhdl:5' bound to instance 'PHS_ctrl_28' of component 'S7_PHS_ctrl_28_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3196]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_28_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_28_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_29_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_29_0_stub.vhdl:5' bound to instance 'PHS_ctrl_29' of component 'S7_PHS_ctrl_29_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3214]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_29_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_29_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_3_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_3_0_stub.vhdl:5' bound to instance 'PHS_ctrl_3' of component 'S7_PHS_ctrl_3_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3232]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_3_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_3_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_30_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_30_0_stub.vhdl:5' bound to instance 'PHS_ctrl_30' of component 'S7_PHS_ctrl_30_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3250]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_30_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_30_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_31_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_31_0_stub.vhdl:5' bound to instance 'PHS_ctrl_31' of component 'S7_PHS_ctrl_31_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3268]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_31_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_31_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_32_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_32_0_stub.vhdl:5' bound to instance 'PHS_ctrl_32' of component 'S7_PHS_ctrl_32_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3286]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_32_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_32_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_33_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_33_0_stub.vhdl:5' bound to instance 'PHS_ctrl_33' of component 'S7_PHS_ctrl_33_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3304]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_33_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_33_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_34_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_34_0_stub.vhdl:5' bound to instance 'PHS_ctrl_34' of component 'S7_PHS_ctrl_34_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3322]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_34_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_34_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_35_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_35_0_stub.vhdl:5' bound to instance 'PHS_ctrl_35' of component 'S7_PHS_ctrl_35_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3340]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_35_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_35_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_36_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_36_0_stub.vhdl:5' bound to instance 'PHS_ctrl_36' of component 'S7_PHS_ctrl_36_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3358]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_36_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_36_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_37_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_37_0_stub.vhdl:5' bound to instance 'PHS_ctrl_37' of component 'S7_PHS_ctrl_37_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3376]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_37_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_37_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_38_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_38_0_stub.vhdl:5' bound to instance 'PHS_ctrl_38' of component 'S7_PHS_ctrl_38_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3394]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_38_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_38_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_39_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_39_0_stub.vhdl:5' bound to instance 'PHS_ctrl_39' of component 'S7_PHS_ctrl_39_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3412]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_39_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_39_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_4_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_4_0_stub.vhdl:5' bound to instance 'PHS_ctrl_4' of component 'S7_PHS_ctrl_4_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3430]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_4_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_4_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_40_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_40_0_stub.vhdl:5' bound to instance 'PHS_ctrl_40' of component 'S7_PHS_ctrl_40_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3448]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_40_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_40_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_41_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_41_0_stub.vhdl:5' bound to instance 'PHS_ctrl_41' of component 'S7_PHS_ctrl_41_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3466]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_41_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_41_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_42_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_42_0_stub.vhdl:5' bound to instance 'PHS_ctrl_42' of component 'S7_PHS_ctrl_42_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3484]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_42_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_42_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_43_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_43_0_stub.vhdl:5' bound to instance 'PHS_ctrl_43' of component 'S7_PHS_ctrl_43_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3502]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_43_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_43_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_44_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_44_0_stub.vhdl:5' bound to instance 'PHS_ctrl_44' of component 'S7_PHS_ctrl_44_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3520]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_44_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_44_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_45_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_45_0_stub.vhdl:5' bound to instance 'PHS_ctrl_45' of component 'S7_PHS_ctrl_45_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3538]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_45_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_45_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_46_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_46_0_stub.vhdl:5' bound to instance 'PHS_ctrl_46' of component 'S7_PHS_ctrl_46_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3556]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_46_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_46_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_47_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_47_0_stub.vhdl:5' bound to instance 'PHS_ctrl_47' of component 'S7_PHS_ctrl_47_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3574]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_47_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_47_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_48_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_48_0_stub.vhdl:5' bound to instance 'PHS_ctrl_48' of component 'S7_PHS_ctrl_48_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3592]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_48_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_48_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_49_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_49_0_stub.vhdl:5' bound to instance 'PHS_ctrl_49' of component 'S7_PHS_ctrl_49_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3610]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_49_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_49_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_5_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_5_0_stub.vhdl:5' bound to instance 'PHS_ctrl_5' of component 'S7_PHS_ctrl_5_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3628]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_5_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_5_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_6_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_6_0_stub.vhdl:5' bound to instance 'PHS_ctrl_6' of component 'S7_PHS_ctrl_6_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3646]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_6_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_6_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_7_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_7_0_stub.vhdl:5' bound to instance 'PHS_ctrl_7' of component 'S7_PHS_ctrl_7_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3664]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_7_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_7_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_8_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_8_0_stub.vhdl:5' bound to instance 'PHS_ctrl_8' of component 'S7_PHS_ctrl_8_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3682]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_8_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_8_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_ctrl_9_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_9_0_stub.vhdl:5' bound to instance 'PHS_ctrl_9' of component 'S7_PHS_ctrl_9_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3700]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_ctrl_9_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_ctrl_9_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'S7_PHS_regs_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_regs_0_0_stub.vhdl:5' bound to instance 'PHS_regs_0' of component 'S7_PHS_regs_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:3718]
+INFO: [Synth 8-638] synthesizing module 'S7_PHS_regs_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_PHS_regs_0_0_stub.vhdl:490]
+INFO: [Synth 8-3491] module 'S7_RT_timebase_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_RT_timebase_0_0_stub.vhdl:5' bound to instance 'RT_timebase_0' of component 'S7_RT_timebase_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:4200]
+INFO: [Synth 8-638] synthesizing module 'S7_RT_timebase_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_RT_timebase_0_0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'PHS_50_imp_RL92HO' (2#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:616]
+INFO: [Synth 8-638] synthesizing module 'SM_20_imp_2OPAUR' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:4360]
+INFO: [Synth 8-3491] module 'S7_SM_alg_server_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_alg_server_0_0_stub.vhdl:5' bound to instance 'SM_alg_server_0' of component 'S7_SM_alg_server_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6533]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_alg_server_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_alg_server_0_0_stub.vhdl:84]
+INFO: [Synth 8-3491] module 'S7_SM_alg_server_1_1' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_alg_server_1_1_stub.vhdl:5' bound to instance 'SM_alg_server_1' of component 'S7_SM_alg_server_1_1' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6609]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_alg_server_1_1' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_alg_server_1_1_stub.vhdl:84]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_0_0_stub.vhdl:5' bound to instance 'SM_ctrl_0' of component 'S7_SM_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6685]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_0_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_1_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_1_0_stub.vhdl:5' bound to instance 'SM_ctrl_1' of component 'S7_SM_ctrl_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6729]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_1_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_10_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_10_0_stub.vhdl:5' bound to instance 'SM_ctrl_10' of component 'S7_SM_ctrl_10_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6773]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_10_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_10_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_11_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_11_0_stub.vhdl:5' bound to instance 'SM_ctrl_11' of component 'S7_SM_ctrl_11_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6817]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_11_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_11_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_12_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_12_0_stub.vhdl:5' bound to instance 'SM_ctrl_12' of component 'S7_SM_ctrl_12_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6861]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_12_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_12_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_13_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_13_0_stub.vhdl:5' bound to instance 'SM_ctrl_13' of component 'S7_SM_ctrl_13_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6905]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_13_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_13_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_14_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_14_0_stub.vhdl:5' bound to instance 'SM_ctrl_14' of component 'S7_SM_ctrl_14_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6949]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_14_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_14_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_15_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_15_0_stub.vhdl:5' bound to instance 'SM_ctrl_15' of component 'S7_SM_ctrl_15_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:6993]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_15_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_15_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_16_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_16_0_stub.vhdl:5' bound to instance 'SM_ctrl_16' of component 'S7_SM_ctrl_16_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7037]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_16_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_16_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_17_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_17_0_stub.vhdl:5' bound to instance 'SM_ctrl_17' of component 'S7_SM_ctrl_17_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7081]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_17_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_17_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_18_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_18_0_stub.vhdl:5' bound to instance 'SM_ctrl_18' of component 'S7_SM_ctrl_18_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7125]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_18_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_18_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_19_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_19_0_stub.vhdl:5' bound to instance 'SM_ctrl_19' of component 'S7_SM_ctrl_19_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7169]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_19_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_19_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_2_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_2_0_stub.vhdl:5' bound to instance 'SM_ctrl_2' of component 'S7_SM_ctrl_2_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7213]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_2_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_2_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_3_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_3_0_stub.vhdl:5' bound to instance 'SM_ctrl_3' of component 'S7_SM_ctrl_3_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7257]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_3_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_3_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_4_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_4_0_stub.vhdl:5' bound to instance 'SM_ctrl_4' of component 'S7_SM_ctrl_4_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7301]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_4_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_4_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_5_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_5_0_stub.vhdl:5' bound to instance 'SM_ctrl_5' of component 'S7_SM_ctrl_5_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7345]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_5_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_5_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_6_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_6_0_stub.vhdl:5' bound to instance 'SM_ctrl_6' of component 'S7_SM_ctrl_6_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7389]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_6_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_6_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_7_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_7_0_stub.vhdl:5' bound to instance 'SM_ctrl_7' of component 'S7_SM_ctrl_7_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7433]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_7_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_7_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_8_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_8_0_stub.vhdl:5' bound to instance 'SM_ctrl_8' of component 'S7_SM_ctrl_8_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7477]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_8_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_8_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_ctrl_9_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_9_0_stub.vhdl:5' bound to instance 'SM_ctrl_9' of component 'S7_SM_ctrl_9_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7521]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_ctrl_9_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_ctrl_9_0_stub.vhdl:52]
+INFO: [Synth 8-3491] module 'S7_SM_regs_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_regs_0_0_stub.vhdl:5' bound to instance 'SM_regs_0' of component 'S7_SM_regs_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:7565]
+INFO: [Synth 8-638] synthesizing module 'S7_SM_regs_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SM_regs_0_0_stub.vhdl:414]
+INFO: [Synth 8-256] done synthesizing module 'SM_20_imp_2OPAUR' (3#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:4360]
+INFO: [Synth 8-638] synthesizing module 'SOL_10_imp_NRIJS8' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8012]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_0_0_stub.vhdl:5' bound to instance 'SOL_ctrl_0' of component 'S7_SOL_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8351]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_0_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_1_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_1_0_stub.vhdl:5' bound to instance 'SOL_ctrl_1' of component 'S7_SOL_ctrl_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8363]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_1_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_2_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_2_0_stub.vhdl:5' bound to instance 'SOL_ctrl_2' of component 'S7_SOL_ctrl_2_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8375]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_2_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_2_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_3_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_3_0_stub.vhdl:5' bound to instance 'SOL_ctrl_3' of component 'S7_SOL_ctrl_3_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8387]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_3_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_3_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_4_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_4_0_stub.vhdl:5' bound to instance 'SOL_ctrl_4' of component 'S7_SOL_ctrl_4_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8399]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_4_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_4_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_5_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_5_0_stub.vhdl:5' bound to instance 'SOL_ctrl_5' of component 'S7_SOL_ctrl_5_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8411]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_5_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_5_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_6_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_6_0_stub.vhdl:5' bound to instance 'SOL_ctrl_6' of component 'S7_SOL_ctrl_6_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8423]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_6_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_6_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_7_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_7_0_stub.vhdl:5' bound to instance 'SOL_ctrl_7' of component 'S7_SOL_ctrl_7_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8435]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_7_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_7_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_8_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_8_0_stub.vhdl:5' bound to instance 'SOL_ctrl_8' of component 'S7_SOL_ctrl_8_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8447]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_8_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_8_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_ctrl_9_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_9_0_stub.vhdl:5' bound to instance 'SOL_ctrl_9' of component 'S7_SOL_ctrl_9_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8459]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_ctrl_9_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_ctrl_9_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'S7_SOL_regs_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_regs_0_0_stub.vhdl:5' bound to instance 'SOL_regs_0' of component 'S7_SOL_regs_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8471]
+INFO: [Synth 8-638] synthesizing module 'S7_SOL_regs_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_SOL_regs_0_0_stub.vhdl:92]
+INFO: [Synth 8-256] done synthesizing module 'SOL_10_imp_NRIJS8' (4#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8012]
+INFO: [Synth 8-3491] module 'S7_axi_chip2chip_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axi_chip2chip_0_0_stub.vhdl:5' bound to instance 'axi_c2c_s' of component 'S7_axi_chip2chip_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:13786]
+INFO: [Synth 8-638] synthesizing module 'S7_axi_chip2chip_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axi_chip2chip_0_0_stub.vhdl:75]
+WARNING: [Synth 8-5640] Port 'axi_dma_tstvec' is missing in component declaration [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:12155]
+INFO: [Synth 8-3491] module 'S7_axi_dma_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axi_dma_0_0_stub.vhdl:5' bound to instance 'axi_dma_1' of component 'S7_axi_dma_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:13855]
+INFO: [Synth 8-638] synthesizing module 'S7_axi_dma_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axi_dma_0_0_stub.vhdl:75]
+INFO: [Synth 8-3491] module 'S7_axi_gpio_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axi_gpio_0_0_stub.vhdl:5' bound to instance 'axi_gpio_0' of component 'S7_axi_gpio_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:13921]
+INFO: [Synth 8-638] synthesizing module 'S7_axi_gpio_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axi_gpio_0_0_stub.vhdl:31]
+INFO: [Synth 8-638] synthesizing module 'S7_axi_interconnect_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:10062]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_Z97FEH' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8738]
+INFO: [Synth 8-3491] module 'S7_m00_data_fifo_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_m00_data_fifo_0_stub.vhdl:5' bound to instance 'm00_data_fifo' of component 'S7_m00_data_fifo_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8974]
+INFO: [Synth 8-638] synthesizing module 'S7_m00_data_fifo_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_m00_data_fifo_0_stub.vhdl:91]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_Z97FEH' (5#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8738]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1MBV3O5' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9738]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1MBV3O5' (6#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9738]
+INFO: [Synth 8-638] synthesizing module 's01_couplers_imp_KFA5VE' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9936]
+INFO: [Synth 8-256] done synthesizing module 's01_couplers_imp_KFA5VE' (7#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9936]
+INFO: [Synth 8-3491] module 'S7_xbar_3' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_xbar_3_stub.vhdl:5' bound to instance 'xbar' of component 'S7_xbar_3' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:10492]
+INFO: [Synth 8-638] synthesizing module 'S7_xbar_3' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_xbar_3_stub.vhdl:89]
+INFO: [Synth 8-256] done synthesizing module 'S7_axi_interconnect_0_0' (8#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:10062]
+INFO: [Synth 8-3491] module 'S7_axi_uartlite_0_0' declared at 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axi_uartlite_0_0_stub.vhdl:5' bound to instance 'axi_uartlite_0' of component 'S7_axi_uartlite_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:14013]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-638] synthesizing module 'S7_axi_uartlite_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axi_uartlite_0_0_stub.vhdl:33]
+INFO: [Synth 8-638] synthesizing module 'S7_axis_data_fifo_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axis_data_fifo_0_0_stub.vhdl:25]
+INFO: [Synth 8-638] synthesizing module 'S7_axis_data_fifo_0_1' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_axis_data_fifo_0_1_stub.vhdl:25]
+INFO: [Synth 8-638] synthesizing module 'S7_util_ds_buf_0_1' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_util_ds_buf_0_1_stub.vhdl:13]
+INFO: [Synth 8-638] synthesizing module 'S7_clk_wiz_1_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_clk_wiz_1_0_stub.vhdl:16]
+INFO: [Synth 8-638] synthesizing module 'S7_util_ds_buf_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_util_ds_buf_0_0_stub.vhdl:14]
+INFO: [Synth 8-638] synthesizing module 'S7_util_vector_logic_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_util_vector_logic_0_0_stub.vhdl:13]
+INFO: [Synth 8-638] synthesizing module 'S7_microblaze_0_axi_periph_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:10775]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_WKOZDQ' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8603]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_WKOZDQ' (9#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:8603]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_1U8Y2K1' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9105]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_1U8Y2K1' (10#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9105]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_16JWVPD' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9210]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_16JWVPD' (11#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9210]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_TNMR2' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9321]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_TNMR2' (12#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9321]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_WUG76P' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9432]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_WUG76P' (13#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9432]
+INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_1TZ1F66' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9543]
+INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_1TZ1F66' (14#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9543]
+INFO: [Synth 8-638] synthesizing module 'm06_couplers_imp_16TTYIM' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9648]
+INFO: [Synth 8-256] done synthesizing module 'm06_couplers_imp_16TTYIM' (15#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9648]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1O0O99U' [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9831]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1O0O99U' (16#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:9831]
+INFO: [Synth 8-638] synthesizing module 'S7_xbar_2' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_xbar_2_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'S7_microblaze_0_axi_periph_0' (17#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:10775]
+INFO: [Synth 8-638] synthesizing module 'S7_rst_clk_wiz_1_100M_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_rst_clk_wiz_1_100M_0_stub.vhdl:21]
+INFO: [Synth 8-638] synthesizing module 'S7_util_idelay_ctrl_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_util_idelay_ctrl_0_0_stub.vhdl:14]
+INFO: [Synth 8-638] synthesizing module 'S7_util_reduced_logic_0_0' [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/.Xil/Vivado-15016-LAPTOP-D823LPN1/realtime/S7_util_reduced_logic_0_0_stub.vhdl:13]
+INFO: [Synth 8-6157] synthesizing module 'S7_xlconcat_0_2' [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_xlconcat_0_2/synth/S7_xlconcat_0_2.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat' [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 5 - type: integer 
+	Parameter NUM_PORTS bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat' (18#1) [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'S7_xlconcat_0_2' (19#1) [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_xlconcat_0_2/synth/S7_xlconcat_0_2.v:58]
+INFO: [Synth 8-6157] synthesizing module 'S7_xlconcat_0_1' [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_xlconcat_0_1/synth/S7_xlconcat_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized0' [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 4 - type: integer 
+	Parameter NUM_PORTS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized0' (19#1) [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'S7_xlconcat_0_1' (20#1) [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_xlconcat_0_1/synth/S7_xlconcat_0_1.v:58]
+INFO: [Synth 8-256] done synthesizing module 'S7' (21#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/synth/S7.vhd:12046]
+INFO: [Synth 8-256] done synthesizing module 'S7_wrapper' (22#1) [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/hdl/S7_wrapper.vhd:285]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In4[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In13[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In14[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In15[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In16[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In17[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In18[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In19[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In20[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In21[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In22[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In23[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In24[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In25[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In26[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In27[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In28[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In29[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In30[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized0 has unconnected port In31[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In13[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In14[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In15[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In16[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In17[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In18[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In19[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In20[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In21[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In22[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In23[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In24[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In25[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In26[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In27[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In28[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In29[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In30[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In31[0]
+WARNING: [Synth 8-3331] design s00_couplers_imp_1O0O99U has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1O0O99U has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_1O0O99U has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1O0O99U has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m06_couplers_imp_16TTYIM has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m06_couplers_imp_16TTYIM has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m06_couplers_imp_16TTYIM has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m06_couplers_imp_16TTYIM has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m05_couplers_imp_1TZ1F66 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m05_couplers_imp_1TZ1F66 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m05_couplers_imp_1TZ1F66 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m05_couplers_imp_1TZ1F66 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m04_couplers_imp_WUG76P has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m04_couplers_imp_WUG76P has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m04_couplers_imp_WUG76P has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m04_couplers_imp_WUG76P has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_TNMR2 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_TNMR2 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_TNMR2 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_TNMR2 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_16JWVPD has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_16JWVPD has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_16JWVPD has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_16JWVPD has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_1U8Y2K1 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_1U8Y2K1 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_1U8Y2K1 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_1U8Y2K1 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_WKOZDQ has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_WKOZDQ has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_WKOZDQ has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_WKOZDQ has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M03_ACLK
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M03_ARESETN
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M04_ACLK
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M04_ARESETN
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M05_ACLK
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M05_ARESETN
+WARNING: [Synth 8-3331] design S7_microblaze_0_axi_periph_0 has unconnected port M06_ACLK
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 963.492 ; gain = 271.195
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 963.492 ; gain = 271.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 963.492 ; gain = 271.195
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_0_0/S7_DCM_ctrl_0_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_0_0/S7_DCM_ctrl_0_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_1_0/S7_DCM_ctrl_1_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_1'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_1_0/S7_DCM_ctrl_1_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_1'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_2_0/S7_DCM_ctrl_2_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_2'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_2_0/S7_DCM_ctrl_2_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_2'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_3_0/S7_DCM_ctrl_3_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_3'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_3_0/S7_DCM_ctrl_3_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_3'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_4_0/S7_DCM_ctrl_4_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_4'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_ctrl_4_0/S7_DCM_ctrl_4_0/S7_DCM_ctrl_1_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_ctrl_4'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_regs_0_0/S7_DCM_regs_0_0/S7_DCM_regs_0_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_regs_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_DCM_regs_0_0/S7_DCM_regs_0_0/S7_DCM_regs_0_0_in_context.xdc] for cell 'S7_i/DCM_5/DCM_regs_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_0_0/S7_PHS_ctrl_0_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_0_0/S7_PHS_ctrl_0_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_1_0/S7_PHS_ctrl_1_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_1'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_1_0/S7_PHS_ctrl_1_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_1'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_2_0/S7_PHS_ctrl_2_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_2'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_2_0/S7_PHS_ctrl_2_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_2'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_3_0/S7_PHS_ctrl_3_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_3'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_3_0/S7_PHS_ctrl_3_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_3'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_4_0/S7_PHS_ctrl_4_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_4'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_4_0/S7_PHS_ctrl_4_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_4'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_5_0/S7_PHS_ctrl_5_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_5'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_5_0/S7_PHS_ctrl_5_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_5'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_6_0/S7_PHS_ctrl_6_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_6'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_6_0/S7_PHS_ctrl_6_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_6'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_7_0/S7_PHS_ctrl_7_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_7'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_7_0/S7_PHS_ctrl_7_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_7'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_8_0/S7_PHS_ctrl_8_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_8'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_8_0/S7_PHS_ctrl_8_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_8'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_9_0/S7_PHS_ctrl_9_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_9'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_9_0/S7_PHS_ctrl_9_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_9'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_10_0/S7_PHS_ctrl_10_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_10'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_10_0/S7_PHS_ctrl_10_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_10'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_11_0/S7_PHS_ctrl_11_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_11'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_11_0/S7_PHS_ctrl_11_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_11'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_12_0/S7_PHS_ctrl_12_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_12'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_12_0/S7_PHS_ctrl_12_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_12'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_13_0/S7_PHS_ctrl_13_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_13'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_13_0/S7_PHS_ctrl_13_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_13'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_14_0/S7_PHS_ctrl_14_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_14'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_14_0/S7_PHS_ctrl_14_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_14'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_15_0/S7_PHS_ctrl_15_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_15'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_15_0/S7_PHS_ctrl_15_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_15'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_16_0/S7_PHS_ctrl_16_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_16'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_16_0/S7_PHS_ctrl_16_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_16'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_17_0/S7_PHS_ctrl_17_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_17'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_17_0/S7_PHS_ctrl_17_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_17'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_18_0/S7_PHS_ctrl_18_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_18'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_18_0/S7_PHS_ctrl_18_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_18'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_19_0/S7_PHS_ctrl_19_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_19'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_19_0/S7_PHS_ctrl_19_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_19'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_20_0/S7_PHS_ctrl_20_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_20'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_20_0/S7_PHS_ctrl_20_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_20'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_21_0/S7_PHS_ctrl_21_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_21'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_21_0/S7_PHS_ctrl_21_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_21'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_22_0/S7_PHS_ctrl_22_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_22'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_22_0/S7_PHS_ctrl_22_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_22'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_23_0/S7_PHS_ctrl_23_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_23'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_23_0/S7_PHS_ctrl_23_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_23'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_24_0/S7_PHS_ctrl_24_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_24'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_24_0/S7_PHS_ctrl_24_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_24'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_25_0/S7_PHS_ctrl_25_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_25'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_25_0/S7_PHS_ctrl_25_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_25'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_26_0/S7_PHS_ctrl_26_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_26'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_26_0/S7_PHS_ctrl_26_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_26'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_27_0/S7_PHS_ctrl_27_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_27'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_27_0/S7_PHS_ctrl_27_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_27'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_28_0/S7_PHS_ctrl_28_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_28'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_28_0/S7_PHS_ctrl_28_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_28'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_29_0/S7_PHS_ctrl_29_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_29'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_29_0/S7_PHS_ctrl_29_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_29'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_30_0/S7_PHS_ctrl_30_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_30'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_30_0/S7_PHS_ctrl_30_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_30'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_31_0/S7_PHS_ctrl_31_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_31'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_31_0/S7_PHS_ctrl_31_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_31'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_32_0/S7_PHS_ctrl_32_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_32'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_32_0/S7_PHS_ctrl_32_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_32'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_33_0/S7_PHS_ctrl_33_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_33'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_33_0/S7_PHS_ctrl_33_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_33'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_34_0/S7_PHS_ctrl_34_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_34'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_34_0/S7_PHS_ctrl_34_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_34'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_35_0/S7_PHS_ctrl_35_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_35'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_35_0/S7_PHS_ctrl_35_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_35'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_36_0/S7_PHS_ctrl_36_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_36'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_36_0/S7_PHS_ctrl_36_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_36'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_37_0/S7_PHS_ctrl_37_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_37'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_37_0/S7_PHS_ctrl_37_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_37'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_38_0/S7_PHS_ctrl_38_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_38'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_38_0/S7_PHS_ctrl_38_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_38'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_39_0/S7_PHS_ctrl_39_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_39'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_39_0/S7_PHS_ctrl_39_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_39'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_40_0/S7_PHS_ctrl_40_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_40'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_40_0/S7_PHS_ctrl_40_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_40'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_41_0/S7_PHS_ctrl_41_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_41'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_41_0/S7_PHS_ctrl_41_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_41'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_42_0/S7_PHS_ctrl_42_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_42'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_42_0/S7_PHS_ctrl_42_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_42'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_43_0/S7_PHS_ctrl_43_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_43'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_43_0/S7_PHS_ctrl_43_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_43'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_44_0/S7_PHS_ctrl_44_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_44'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_44_0/S7_PHS_ctrl_44_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_44'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_45_0/S7_PHS_ctrl_45_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_45'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_45_0/S7_PHS_ctrl_45_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_45'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_46_0/S7_PHS_ctrl_46_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_46'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_46_0/S7_PHS_ctrl_46_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_46'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_47_0/S7_PHS_ctrl_47_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_47'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_47_0/S7_PHS_ctrl_47_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_47'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_48_0/S7_PHS_ctrl_48_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_48'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_48_0/S7_PHS_ctrl_48_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_48'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_49_0/S7_PHS_ctrl_49_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_49'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_ctrl_49_0/S7_PHS_ctrl_49_0/S7_PHS_ctrl_5_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_ctrl_49'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_regs_0_0/S7_PHS_regs_0_0/S7_PHS_regs_0_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_regs_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_PHS_regs_0_0/S7_PHS_regs_0_0/S7_PHS_regs_0_0_in_context.xdc] for cell 'S7_i/PHS_50/PHS_regs_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_RT_timebase_0_0/S7_RT_timebase_0_0/S7_RT_timebase_0_0_in_context.xdc] for cell 'S7_i/PHS_50/RT_timebase_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_RT_timebase_0_0/S7_RT_timebase_0_0/S7_RT_timebase_0_0_in_context.xdc] for cell 'S7_i/PHS_50/RT_timebase_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_0_0/S7_SM_ctrl_0_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_0_0/S7_SM_ctrl_0_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_1_0/S7_SM_ctrl_1_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_1'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_1_0/S7_SM_ctrl_1_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_1'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_2_0/S7_SM_ctrl_2_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_2'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_2_0/S7_SM_ctrl_2_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_2'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_3_0/S7_SM_ctrl_3_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_3'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_3_0/S7_SM_ctrl_3_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_3'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_4_0/S7_SM_ctrl_4_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_4'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_4_0/S7_SM_ctrl_4_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_4'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_5_0/S7_SM_ctrl_5_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_5'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_5_0/S7_SM_ctrl_5_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_5'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_6_0/S7_SM_ctrl_6_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_6'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_6_0/S7_SM_ctrl_6_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_6'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_7_0/S7_SM_ctrl_7_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_7'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_7_0/S7_SM_ctrl_7_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_7'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_8_0/S7_SM_ctrl_8_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_8'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_8_0/S7_SM_ctrl_8_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_8'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_9_0/S7_SM_ctrl_9_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_9'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_9_0/S7_SM_ctrl_9_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_9'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_10_0/S7_SM_ctrl_10_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_10'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_10_0/S7_SM_ctrl_10_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_10'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_11_0/S7_SM_ctrl_11_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_11'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_11_0/S7_SM_ctrl_11_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_11'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_12_0/S7_SM_ctrl_12_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_12'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_12_0/S7_SM_ctrl_12_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_12'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_13_0/S7_SM_ctrl_13_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_13'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_13_0/S7_SM_ctrl_13_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_13'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_14_0/S7_SM_ctrl_14_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_14'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_14_0/S7_SM_ctrl_14_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_14'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_15_0/S7_SM_ctrl_15_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_15'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_15_0/S7_SM_ctrl_15_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_15'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_16_0/S7_SM_ctrl_16_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_16'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_16_0/S7_SM_ctrl_16_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_16'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_17_0/S7_SM_ctrl_17_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_17'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_17_0/S7_SM_ctrl_17_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_17'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_18_0/S7_SM_ctrl_18_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_18'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_18_0/S7_SM_ctrl_18_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_18'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_19_0/S7_SM_ctrl_19_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_19'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_ctrl_19_0/S7_SM_ctrl_19_0/S7_SM_ctrl_5_0_in_context.xdc] for cell 'S7_i/SM_20/SM_ctrl_19'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_regs_0_0/S7_SM_regs_0_0/S7_SM_regs_0_0_in_context.xdc] for cell 'S7_i/SM_20/SM_regs_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_regs_0_0/S7_SM_regs_0_0/S7_SM_regs_0_0_in_context.xdc] for cell 'S7_i/SM_20/SM_regs_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_0_0/S7_SOL_ctrl_0_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_0_0/S7_SOL_ctrl_0_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_1_0/S7_SOL_ctrl_1_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_1'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_1_0/S7_SOL_ctrl_1_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_1'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_2_0/S7_SOL_ctrl_2_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_2'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_2_0/S7_SOL_ctrl_2_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_2'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_3_0/S7_SOL_ctrl_3_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_3'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_3_0/S7_SOL_ctrl_3_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_3'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_4_0/S7_SOL_ctrl_4_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_4'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_4_0/S7_SOL_ctrl_4_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_4'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_5_0/S7_SOL_ctrl_5_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_5'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_5_0/S7_SOL_ctrl_5_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_5'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_6_0/S7_SOL_ctrl_6_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_6'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_6_0/S7_SOL_ctrl_6_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_6'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_7_0/S7_SOL_ctrl_7_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_7'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_7_0/S7_SOL_ctrl_7_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_7'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_8_0/S7_SOL_ctrl_8_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_8'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_8_0/S7_SOL_ctrl_8_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_8'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_9_0/S7_SOL_ctrl_9_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_9'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_ctrl_9_0/S7_SOL_ctrl_9_0/S7_SOL_ctrl_2_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_ctrl_9'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_regs_0_0/S7_SOL_regs_0_0/S7_SOL_regs_0_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_regs_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SOL_regs_0_0/S7_SOL_regs_0_0/S7_SOL_regs_0_0_in_context.xdc] for cell 'S7_i/SOL_10/SOL_regs_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_gpio_0_0/S7_axi_gpio_0_0/S7_axi_gpio_0_0_in_context.xdc] for cell 'S7_i/axi_gpio_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_gpio_0_0/S7_axi_gpio_0_0/S7_axi_gpio_0_0_in_context.xdc] for cell 'S7_i/axi_gpio_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_uartlite_0_0/S7_axi_uartlite_0_0/S7_axi_uartlite_0_0_in_context.xdc] for cell 'S7_i/axi_uartlite_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_uartlite_0_0/S7_axi_uartlite_0_0/S7_axi_uartlite_0_0_in_context.xdc] for cell 'S7_i/axi_uartlite_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_clk_wiz_1_0/S7_clk_wiz_1_0/S7_clk_wiz_1_0_in_context.xdc] for cell 'S7_i/clk_wiz_1'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_clk_wiz_1_0/S7_clk_wiz_1_0/S7_clk_wiz_1_0_in_context.xdc] for cell 'S7_i/clk_wiz_1'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_rst_clk_wiz_1_100M_0/S7_rst_clk_wiz_1_100M_0/S7_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'S7_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_rst_clk_wiz_1_100M_0/S7_rst_clk_wiz_1_100M_0/S7_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'S7_i/rst_clk_wiz_1_100M'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc] for cell 'S7_i/axi_c2c_s'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc] for cell 'S7_i/axi_c2c_s'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0_in_context.xdc] for cell 'S7_i/ibufgds_200'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0_in_context.xdc] for cell 'S7_i/ibufgds_200'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_ds_buf_0_1/S7_util_ds_buf_0_1/S7_util_ds_buf_0_1_in_context.xdc] for cell 'S7_i/bufg_200'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_ds_buf_0_1/S7_util_ds_buf_0_1/S7_util_ds_buf_0_1_in_context.xdc] for cell 'S7_i/bufg_200'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_idelay_ctrl_0_0/S7_util_idelay_ctrl_0_0/S7_util_idelay_ctrl_0_0_in_context.xdc] for cell 'S7_i/util_idelay_ctrl_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_idelay_ctrl_0_0/S7_util_idelay_ctrl_0_0/S7_util_idelay_ctrl_0_0_in_context.xdc] for cell 'S7_i/util_idelay_ctrl_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_xbar_2/S7_xbar_2/S7_xbar_2_in_context.xdc] for cell 'S7_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_xbar_2/S7_xbar_2/S7_xbar_2_in_context.xdc] for cell 'S7_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_alg_server_0_0/S7_SM_alg_server_0_0/S7_SM_alg_server_0_0_in_context.xdc] for cell 'S7_i/SM_20/SM_alg_server_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_alg_server_0_0/S7_SM_alg_server_0_0/S7_SM_alg_server_0_0_in_context.xdc] for cell 'S7_i/SM_20/SM_alg_server_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_alg_server_1_1_1/S7_SM_alg_server_1_1/S7_SM_alg_server_0_0_in_context.xdc] for cell 'S7_i/SM_20/SM_alg_server_1'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_SM_alg_server_1_1_1/S7_SM_alg_server_1_1/S7_SM_alg_server_0_0_in_context.xdc] for cell 'S7_i/SM_20/SM_alg_server_1'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_vector_logic_0_0/S7_util_vector_logic_0_0/S7_util_vector_logic_0_0_in_context.xdc] for cell 'S7_i/inv_rst'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_vector_logic_0_0/S7_util_vector_logic_0_0/S7_util_vector_logic_0_0_in_context.xdc] for cell 'S7_i/inv_rst'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_dma_0_0/S7_axi_dma_0_0/S7_axi_dma_0_0_in_context.xdc] for cell 'S7_i/axi_dma_1'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_dma_0_0/S7_axi_dma_0_0/S7_axi_dma_0_0_in_context.xdc] for cell 'S7_i/axi_dma_1'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_xbar_3/S7_xbar_3/S7_xbar_3_in_context.xdc] for cell 'S7_i/axi_interconnect_0/xbar'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_xbar_3/S7_xbar_3/S7_xbar_3_in_context.xdc] for cell 'S7_i/axi_interconnect_0/xbar'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axis_data_fifo_0_0/S7_axis_data_fifo_0_0/S7_axis_data_fifo_0_0_in_context.xdc] for cell 'S7_i/axis_data_fifo_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axis_data_fifo_0_0/S7_axis_data_fifo_0_0/S7_axis_data_fifo_0_0_in_context.xdc] for cell 'S7_i/axis_data_fifo_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axis_data_fifo_0_1/S7_axis_data_fifo_0_1/S7_axis_data_fifo_0_0_in_context.xdc] for cell 'S7_i/axis_data_fifo_1'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axis_data_fifo_0_1/S7_axis_data_fifo_0_1/S7_axis_data_fifo_0_0_in_context.xdc] for cell 'S7_i/axis_data_fifo_1'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_AXI4_Stream_Inverter_0_0/S7_AXI4_Stream_Inverter_0_0/S7_AXI4_Stream_Inverter_0_0_in_context.xdc] for cell 'S7_i/AXI4_Stream_Inverter_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_AXI4_Stream_Inverter_0_0/S7_AXI4_Stream_Inverter_0_0/S7_AXI4_Stream_Inverter_0_0_in_context.xdc] for cell 'S7_i/AXI4_Stream_Inverter_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_reduced_logic_0_0/S7_util_reduced_logic_0_0/S7_util_reduced_logic_0_0_in_context.xdc] for cell 'S7_i/util_reduced_logic_0'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_reduced_logic_0_0/S7_util_reduced_logic_0_0/S7_util_reduced_logic_0_0_in_context.xdc] for cell 'S7_i/util_reduced_logic_0'
+Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_m00_data_fifo_0/S7_m00_data_fifo_0/S7_m00_data_fifo_0_in_context.xdc] for cell 'S7_i/axi_interconnect_0/m00_couplers/m00_data_fifo'
+Finished Parsing XDC File [d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_m00_data_fifo_0/S7_m00_data_fifo_0/S7_m00_data_fifo_0_in_context.xdc] for cell 'S7_i/axi_interconnect_0/m00_couplers/m00_data_fifo'
+Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_IOs.xdc]
+Finished Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_IOs.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_IOs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/S7_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/S7_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_Timing.xdc]
+Finished Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_Timing.xdc]
+Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_bitstream.xdc]
+Finished Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_bitstream.xdc]
+Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_Debug.xdc]
+Finished Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.srcs/constrs_1/new/S7_Debug.xdc]
+Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1089.703 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1089.703 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s100fgga676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[0]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 2).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[0]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 3).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[10]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[10]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[11]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[11]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 7).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[12]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[12]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[13]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[13]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[14]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[14]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[15]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[15]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 15).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[16]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 16).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[16]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 17).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[1]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 18).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[1]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 19).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[2]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 20).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[2]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 21).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[3]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 22).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[3]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 23).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[4]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 24).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[4]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 25).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[5]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 26).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[5]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 27).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[6]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 28).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[6]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 29).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[7]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 30).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[7]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 31).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[8]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 32).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[8]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 33).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_txd_in[9]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 34).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_txd_in[9]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 35).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxclk_in_n. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 36).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxclk_in_n. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 37).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxclk_in_p. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 38).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxclk_in_p. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 39).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[0]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 40).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[0]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 41).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[10]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 42).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[10]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 43).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[11]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 44).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[11]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 45).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[12]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 46).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[12]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 47).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[13]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 48).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[13]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 49).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[14]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 50).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[14]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 51).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[15]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 52).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[15]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 53).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[16]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 54).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[16]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 55).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[1]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 56).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[1]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 57).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[2]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 58).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[2]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 59).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[3]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 60).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[3]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 61).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[4]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 62).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[4]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 63).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[5]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 64).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[5]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 65).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[6]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 66).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[6]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 67).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[7]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 68).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[7]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 69).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[8]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 70).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[8]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 71).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxd_out[9]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 72).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxd_out[9]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 73).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxclk_out_n. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 74).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxclk_out_n. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 75).
+Applied set_property IO_BUFFER_TYPE = NONE for S_c2c_rxclk_out_p. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 76).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for S_c2c_rxclk_out_p. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0/S7_axi_chip2chip_0_0_in_context.xdc, line 77).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_diff_clock_clk_n[0]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0_in_context.xdc, line 2).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_diff_clock_clk_n[0]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0_in_context.xdc, line 3).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_diff_clock_clk_p[0]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_diff_clock_clk_p[0]. (constraint file  d:/MW/RTT/VVD/S/S_7/S7/S7.srcs/sources_1/bd/S7/ip/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0/S7_util_ds_buf_0_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for S7_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/DCM_5/DCM_ctrl_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/DCM_5/DCM_ctrl_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/DCM_5/DCM_ctrl_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/DCM_5/DCM_ctrl_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/DCM_5/DCM_ctrl_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/DCM_5/DCM_regs_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_19. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_20. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_21. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_22. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_23. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_24. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_25. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_26. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_27. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_28. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_29. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_30. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_31. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_32. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_33. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_34. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_35. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_36. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_37. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_38. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_39. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_40. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_41. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_42. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_43. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_44. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_45. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_46. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_47. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_48. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_ctrl_49. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/PHS_regs_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/PHS_50/RT_timebase_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_ctrl_19. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_regs_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_ctrl_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SOL_10/SOL_regs_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/clk_wiz_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axi_c2c_s. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/ibufgds_200. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/bufg_200. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/util_idelay_ctrl_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/xlconcat_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_alg_server_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/SM_20/SM_alg_server_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/inv_rst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axi_dma_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axi_interconnect_0/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axi_interconnect_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axis_data_fifo_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axis_data_fifo_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/AXI4_Stream_Inverter_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/util_reduced_logic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S7_i/axi_interconnect_0/m00_couplers/m00_data_fifo. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 160 (col length:80)
+BRAMs: 240 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'S7_i/clk_wiz_1/clk_out1' to pin 'S7_i/clk_wiz_1/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'S7_i/clk_wiz_1/clk_in1' to 'S7_i/bufg_200/bbstub_BUFG_O[0]/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'S7_i/clk_wiz_1/clk_out2' to pin 'S7_i/clk_wiz_1/bbstub_clk_out2/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'S7_i/clk_wiz_1/clk_in1' to 'S7_i/bufg_200/bbstub_BUFG_O[0]/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'S7_i/ibufgds_200/IBUF_OUT[0]' to pin '{S7_i/ibufgds_200/bbstub_IBUF_OUT[0]/O}'
+INFO: [Synth 8-5819] Moved 4 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------+----------+
+|      |BlackBox name               |Instances |
++------+----------------------------+----------+
+|1     |S7_xbar_3                   |         1|
+|2     |S7_m00_data_fifo_0          |         1|
+|3     |S7_xbar_2                   |         1|
+|4     |S7_AXI4_Stream_Inverter_0_0 |         1|
+|5     |S7_axi_chip2chip_0_0        |         1|
+|6     |S7_axi_dma_0_0              |         1|
+|7     |S7_axi_gpio_0_0             |         1|
+|8     |S7_axi_uartlite_0_0         |         1|
+|9     |S7_axis_data_fifo_0_0       |         1|
+|10    |S7_axis_data_fifo_0_1       |         1|
+|11    |S7_util_ds_buf_0_1          |         1|
+|12    |S7_clk_wiz_1_0              |         1|
+|13    |S7_util_ds_buf_0_0          |         1|
+|14    |S7_util_vector_logic_0_0    |         1|
+|15    |S7_rst_clk_wiz_1_100M_0     |         1|
+|16    |S7_util_idelay_ctrl_0_0     |         1|
+|17    |S7_util_reduced_logic_0_0   |         1|
+|18    |S7_DCM_ctrl_0_0             |         1|
+|19    |S7_DCM_ctrl_1_0             |         1|
+|20    |S7_DCM_ctrl_2_0             |         1|
+|21    |S7_DCM_ctrl_3_0             |         1|
+|22    |S7_DCM_ctrl_4_0             |         1|
+|23    |S7_DCM_regs_0_0             |         1|
+|24    |S7_PHS_ctrl_0_0             |         1|
+|25    |S7_PHS_ctrl_1_0             |         1|
+|26    |S7_PHS_ctrl_10_0            |         1|
+|27    |S7_PHS_ctrl_11_0            |         1|
+|28    |S7_PHS_ctrl_12_0            |         1|
+|29    |S7_PHS_ctrl_13_0            |         1|
+|30    |S7_PHS_ctrl_14_0            |         1|
+|31    |S7_PHS_ctrl_15_0            |         1|
+|32    |S7_PHS_ctrl_16_0            |         1|
+|33    |S7_PHS_ctrl_17_0            |         1|
+|34    |S7_PHS_ctrl_18_0            |         1|
+|35    |S7_PHS_ctrl_19_0            |         1|
+|36    |S7_PHS_ctrl_2_0             |         1|
+|37    |S7_PHS_ctrl_20_0            |         1|
+|38    |S7_PHS_ctrl_21_0            |         1|
+|39    |S7_PHS_ctrl_22_0            |         1|
+|40    |S7_PHS_ctrl_23_0            |         1|
+|41    |S7_PHS_ctrl_24_0            |         1|
+|42    |S7_PHS_ctrl_25_0            |         1|
+|43    |S7_PHS_ctrl_26_0            |         1|
+|44    |S7_PHS_ctrl_27_0            |         1|
+|45    |S7_PHS_ctrl_28_0            |         1|
+|46    |S7_PHS_ctrl_29_0            |         1|
+|47    |S7_PHS_ctrl_3_0             |         1|
+|48    |S7_PHS_ctrl_30_0            |         1|
+|49    |S7_PHS_ctrl_31_0            |         1|
+|50    |S7_PHS_ctrl_32_0            |         1|
+|51    |S7_PHS_ctrl_33_0            |         1|
+|52    |S7_PHS_ctrl_34_0            |         1|
+|53    |S7_PHS_ctrl_35_0            |         1|
+|54    |S7_PHS_ctrl_36_0            |         1|
+|55    |S7_PHS_ctrl_37_0            |         1|
+|56    |S7_PHS_ctrl_38_0            |         1|
+|57    |S7_PHS_ctrl_39_0            |         1|
+|58    |S7_PHS_ctrl_4_0             |         1|
+|59    |S7_PHS_ctrl_40_0            |         1|
+|60    |S7_PHS_ctrl_41_0            |         1|
+|61    |S7_PHS_ctrl_42_0            |         1|
+|62    |S7_PHS_ctrl_43_0            |         1|
+|63    |S7_PHS_ctrl_44_0            |         1|
+|64    |S7_PHS_ctrl_45_0            |         1|
+|65    |S7_PHS_ctrl_46_0            |         1|
+|66    |S7_PHS_ctrl_47_0            |         1|
+|67    |S7_PHS_ctrl_48_0            |         1|
+|68    |S7_PHS_ctrl_49_0            |         1|
+|69    |S7_PHS_ctrl_5_0             |         1|
+|70    |S7_PHS_ctrl_6_0             |         1|
+|71    |S7_PHS_ctrl_7_0             |         1|
+|72    |S7_PHS_ctrl_8_0             |         1|
+|73    |S7_PHS_ctrl_9_0             |         1|
+|74    |S7_PHS_regs_0_0             |         1|
+|75    |S7_RT_timebase_0_0          |         1|
+|76    |S7_SM_alg_server_0_0        |         1|
+|77    |S7_SM_alg_server_1_1        |         1|
+|78    |S7_SM_ctrl_0_0              |         1|
+|79    |S7_SM_ctrl_1_0              |         1|
+|80    |S7_SM_ctrl_10_0             |         1|
+|81    |S7_SM_ctrl_11_0             |         1|
+|82    |S7_SM_ctrl_12_0             |         1|
+|83    |S7_SM_ctrl_13_0             |         1|
+|84    |S7_SM_ctrl_14_0             |         1|
+|85    |S7_SM_ctrl_15_0             |         1|
+|86    |S7_SM_ctrl_16_0             |         1|
+|87    |S7_SM_ctrl_17_0             |         1|
+|88    |S7_SM_ctrl_18_0             |         1|
+|89    |S7_SM_ctrl_19_0             |         1|
+|90    |S7_SM_ctrl_2_0              |         1|
+|91    |S7_SM_ctrl_3_0              |         1|
+|92    |S7_SM_ctrl_4_0              |         1|
+|93    |S7_SM_ctrl_5_0              |         1|
+|94    |S7_SM_ctrl_6_0              |         1|
+|95    |S7_SM_ctrl_7_0              |         1|
+|96    |S7_SM_ctrl_8_0              |         1|
+|97    |S7_SM_ctrl_9_0              |         1|
+|98    |S7_SM_regs_0_0              |         1|
+|99    |S7_SOL_ctrl_0_0             |         1|
+|100   |S7_SOL_ctrl_1_0             |         1|
+|101   |S7_SOL_ctrl_2_0             |         1|
+|102   |S7_SOL_ctrl_3_0             |         1|
+|103   |S7_SOL_ctrl_4_0             |         1|
+|104   |S7_SOL_ctrl_5_0             |         1|
+|105   |S7_SOL_ctrl_6_0             |         1|
+|106   |S7_SOL_ctrl_7_0             |         1|
+|107   |S7_SOL_ctrl_8_0             |         1|
+|108   |S7_SOL_ctrl_9_0             |         1|
+|109   |S7_SOL_regs_0_0             |         1|
++------+----------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------+------+
+|      |Cell                               |Count |
++------+-----------------------------------+------+
+|1     |S7_AXI4_Stream_Inverter_0_0_bbox_0 |     1|
+|2     |S7_DCM_ctrl_0_0_bbox_1             |     1|
+|3     |S7_DCM_ctrl_1_0_bbox_2             |     1|
+|4     |S7_DCM_ctrl_2_0_bbox_3             |     1|
+|5     |S7_DCM_ctrl_3_0_bbox_4             |     1|
+|6     |S7_DCM_ctrl_4_0_bbox_5             |     1|
+|7     |S7_DCM_regs_0_0_bbox_6             |     1|
+|8     |S7_PHS_ctrl_0_0_bbox_7             |     1|
+|9     |S7_PHS_ctrl_10_0_bbox_9            |     1|
+|10    |S7_PHS_ctrl_11_0_bbox_10           |     1|
+|11    |S7_PHS_ctrl_12_0_bbox_11           |     1|
+|12    |S7_PHS_ctrl_13_0_bbox_12           |     1|
+|13    |S7_PHS_ctrl_14_0_bbox_13           |     1|
+|14    |S7_PHS_ctrl_15_0_bbox_14           |     1|
+|15    |S7_PHS_ctrl_16_0_bbox_15           |     1|
+|16    |S7_PHS_ctrl_17_0_bbox_16           |     1|
+|17    |S7_PHS_ctrl_18_0_bbox_17           |     1|
+|18    |S7_PHS_ctrl_19_0_bbox_18           |     1|
+|19    |S7_PHS_ctrl_1_0_bbox_8             |     1|
+|20    |S7_PHS_ctrl_20_0_bbox_20           |     1|
+|21    |S7_PHS_ctrl_21_0_bbox_21           |     1|
+|22    |S7_PHS_ctrl_22_0_bbox_22           |     1|
+|23    |S7_PHS_ctrl_23_0_bbox_23           |     1|
+|24    |S7_PHS_ctrl_24_0_bbox_24           |     1|
+|25    |S7_PHS_ctrl_25_0_bbox_25           |     1|
+|26    |S7_PHS_ctrl_26_0_bbox_26           |     1|
+|27    |S7_PHS_ctrl_27_0_bbox_27           |     1|
+|28    |S7_PHS_ctrl_28_0_bbox_28           |     1|
+|29    |S7_PHS_ctrl_29_0_bbox_29           |     1|
+|30    |S7_PHS_ctrl_2_0_bbox_19            |     1|
+|31    |S7_PHS_ctrl_30_0_bbox_31           |     1|
+|32    |S7_PHS_ctrl_31_0_bbox_32           |     1|
+|33    |S7_PHS_ctrl_32_0_bbox_33           |     1|
+|34    |S7_PHS_ctrl_33_0_bbox_34           |     1|
+|35    |S7_PHS_ctrl_34_0_bbox_35           |     1|
+|36    |S7_PHS_ctrl_35_0_bbox_36           |     1|
+|37    |S7_PHS_ctrl_36_0_bbox_37           |     1|
+|38    |S7_PHS_ctrl_37_0_bbox_38           |     1|
+|39    |S7_PHS_ctrl_38_0_bbox_39           |     1|
+|40    |S7_PHS_ctrl_39_0_bbox_40           |     1|
+|41    |S7_PHS_ctrl_3_0_bbox_30            |     1|
+|42    |S7_PHS_ctrl_40_0_bbox_42           |     1|
+|43    |S7_PHS_ctrl_41_0_bbox_43           |     1|
+|44    |S7_PHS_ctrl_42_0_bbox_44           |     1|
+|45    |S7_PHS_ctrl_43_0_bbox_45           |     1|
+|46    |S7_PHS_ctrl_44_0_bbox_46           |     1|
+|47    |S7_PHS_ctrl_45_0_bbox_47           |     1|
+|48    |S7_PHS_ctrl_46_0_bbox_48           |     1|
+|49    |S7_PHS_ctrl_47_0_bbox_49           |     1|
+|50    |S7_PHS_ctrl_48_0_bbox_50           |     1|
+|51    |S7_PHS_ctrl_49_0_bbox_51           |     1|
+|52    |S7_PHS_ctrl_4_0_bbox_41            |     1|
+|53    |S7_PHS_ctrl_5_0_bbox_52            |     1|
+|54    |S7_PHS_ctrl_6_0_bbox_53            |     1|
+|55    |S7_PHS_ctrl_7_0_bbox_54            |     1|
+|56    |S7_PHS_ctrl_8_0_bbox_55            |     1|
+|57    |S7_PHS_ctrl_9_0_bbox_56            |     1|
+|58    |S7_PHS_regs_0_0_bbox_57            |     1|
+|59    |S7_RT_timebase_0_0_bbox_58         |     1|
+|60    |S7_SM_alg_server_0_0_bbox_59       |     1|
+|61    |S7_SM_alg_server_1_1_bbox_60       |     1|
+|62    |S7_SM_ctrl_0_0_bbox_61             |     1|
+|63    |S7_SM_ctrl_10_0_bbox_63            |     1|
+|64    |S7_SM_ctrl_11_0_bbox_64            |     1|
+|65    |S7_SM_ctrl_12_0_bbox_65            |     1|
+|66    |S7_SM_ctrl_13_0_bbox_66            |     1|
+|67    |S7_SM_ctrl_14_0_bbox_67            |     1|
+|68    |S7_SM_ctrl_15_0_bbox_68            |     1|
+|69    |S7_SM_ctrl_16_0_bbox_69            |     1|
+|70    |S7_SM_ctrl_17_0_bbox_70            |     1|
+|71    |S7_SM_ctrl_18_0_bbox_71            |     1|
+|72    |S7_SM_ctrl_19_0_bbox_72            |     1|
+|73    |S7_SM_ctrl_1_0_bbox_62             |     1|
+|74    |S7_SM_ctrl_2_0_bbox_73             |     1|
+|75    |S7_SM_ctrl_3_0_bbox_74             |     1|
+|76    |S7_SM_ctrl_4_0_bbox_75             |     1|
+|77    |S7_SM_ctrl_5_0_bbox_76             |     1|
+|78    |S7_SM_ctrl_6_0_bbox_77             |     1|
+|79    |S7_SM_ctrl_7_0_bbox_78             |     1|
+|80    |S7_SM_ctrl_8_0_bbox_79             |     1|
+|81    |S7_SM_ctrl_9_0_bbox_80             |     1|
+|82    |S7_SM_regs_0_0_bbox_81             |     1|
+|83    |S7_SOL_ctrl_0_0_bbox_82            |     1|
+|84    |S7_SOL_ctrl_1_0_bbox_83            |     1|
+|85    |S7_SOL_ctrl_2_0_bbox_84            |     1|
+|86    |S7_SOL_ctrl_3_0_bbox_85            |     1|
+|87    |S7_SOL_ctrl_4_0_bbox_86            |     1|
+|88    |S7_SOL_ctrl_5_0_bbox_87            |     1|
+|89    |S7_SOL_ctrl_6_0_bbox_88            |     1|
+|90    |S7_SOL_ctrl_7_0_bbox_89            |     1|
+|91    |S7_SOL_ctrl_8_0_bbox_90            |     1|
+|92    |S7_SOL_ctrl_9_0_bbox_91            |     1|
+|93    |S7_SOL_regs_0_0_bbox_92            |     1|
+|94    |S7_axi_chip2chip_0_0_bbox_93       |     1|
+|95    |S7_axi_dma_0_0_bbox_94             |     1|
+|96    |S7_axi_gpio_0_0_bbox_95            |     1|
+|97    |S7_axi_uartlite_0_0_bbox_98        |     1|
+|98    |S7_axis_data_fifo_0_0_bbox_99      |     1|
+|99    |S7_axis_data_fifo_0_1_bbox_100     |     1|
+|100   |S7_clk_wiz_1_0_bbox_102            |     1|
+|101   |S7_m00_data_fifo_0_bbox_96         |     1|
+|102   |S7_rst_clk_wiz_1_100M_0_bbox_106   |     1|
+|103   |S7_util_ds_buf_0_0_bbox_103        |     1|
+|104   |S7_util_ds_buf_0_1_bbox_101        |     1|
+|105   |S7_util_idelay_ctrl_0_0_bbox_107   |     1|
+|106   |S7_util_reduced_logic_0_0_bbox_108 |     1|
+|107   |S7_util_vector_logic_0_0_bbox_104  |     1|
+|108   |S7_xbar_2_bbox_105                 |     1|
+|109   |S7_xbar_3_bbox_97                  |     1|
+|110   |IBUF                               |    57|
+|111   |OBUF                               |   204|
++------+-----------------------------------+------+
+
+Report Instance Areas: 
++------+----------------------------+-----------------------------+------+
+|      |Instance                    |Module                       |Cells |
++------+----------------------------+-----------------------------+------+
+|1     |top                         |                             |  9227|
+|2     |  S7_i                      |S7                           |  8966|
+|3     |    axi_interconnect_0      |S7_axi_interconnect_0_0      |   464|
+|4     |      m00_couplers          |m00_couplers_imp_Z97FEH      |   210|
+|5     |    microblaze_0_axi_periph |S7_microblaze_0_axi_periph_0 |   818|
+|6     |    xlconcat_0              |S7_xlconcat_0_2              |     0|
+|7     |    xlconcat_1              |S7_xlconcat_0_1              |     0|
+|8     |    DCM_5                   |DCM_5_imp_J00IJ8             |   166|
+|9     |    PHS_50                  |PHS_50_imp_RL92HO            |  1196|
+|10    |    SM_20                   |SM_20_imp_2OPAUR             |  5282|
+|11    |    SOL_10                  |SOL_10_imp_NRIJS8            |   291|
++------+----------------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1089.703 ; gain = 397.406
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 44 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1089.703 ; gain = 271.195
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1089.703 ; gain = 397.406
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1089.703 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+276 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1089.703 ; gain = 658.824
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1089.703 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/MW/RTT/VVD/S/S_7/S7/S7.runs/synth_1/S7_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file S7_wrapper_utilization_synth.rpt -pb S7_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 26 15:43:58 2021...
