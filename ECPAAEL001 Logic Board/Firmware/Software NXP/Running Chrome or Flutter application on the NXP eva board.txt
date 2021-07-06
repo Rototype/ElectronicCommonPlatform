@@ -1,6 +1,0 @@
-Per lanciare applicativo Flutter a bordo della scheda devi copiare i tuoi file
-sotto la directory /home/develop/Executable
-e poi scrivere sul terminale
-chromium --no-sandbox --allow-file-acces --allow-file-access-from-files "file:///home/develop/Executable/index.html"
-e parte il browser sui tuoi programmi.
-Se vuoi lanciare Chrome come browser web usa sempre il comando "chromium --no-sandbox".

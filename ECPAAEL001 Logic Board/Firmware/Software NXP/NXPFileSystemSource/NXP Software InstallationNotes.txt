@@ -13,3 +13,5 @@ dtc -I dtb -O dts -f devicetree.dtb -o devicetree.dts
 DTS to DTB
 dtc -I dts -O dtb -f devicetree.dts -o devicetree.dtb
 
+Copy Comunicator source files to /home/develop/Comunicator and use src/makefile to build
+
